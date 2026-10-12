@@ -1,0 +1,71 @@
+{
+  "runs": [
+    {
+      "basis": "Z",
+      "code": "REP3",
+      "counts_file": "counts/counts_rep3_z_r4_A_ab.json",
+      "counts_sha256": "7143cf2aefa7a3996ba1ebe4325d347632fd79b815380469ee1d5ef6ac607bbf",
+      "job_id": "da8i2bpqtnsc73d0ghlg",
+      "line": "A"
+    },
+    {
+      "basis": "X",
+      "code": "REP3",
+      "counts_file": "counts/counts_rep3_x_r4_A_ab.json",
+      "counts_sha256": "7c209bff8479c60c91a19e95dda3823c7a63efbcad1b66fdc9a01c220e35c33c",
+      "job_id": "da8i2c1qtnsc73d0ghmg",
+      "line": "A"
+    },
+    {
+      "basis": "Z",
+      "code": "REP3",
+      "counts_file": "counts/counts_rep3_z_r4_B_ab.json",
+      "counts_sha256": "29fd427bd74a2cbe6a6db08fa7fc9755933cbba739b373d9da5a59a89eccc699",
+      "job_id": "da8i2ckjbipc73fdp2mg",
+      "line": "B"
+    },
+    {
+      "basis": "X",
+      "code": "REP3",
+      "counts_file": "counts/counts_rep3_x_r4_B_ab.json",
+      "counts_sha256": "2e0fffe91dc53e09030fe2b0fcfd7f1c982620209e31c777d7b97ecb50d88368",
+      "job_id": "da8i2d6rbfbs73cgigl0",
+      "line": "B"
+    },
+    {
+      "basis": "Z",
+      "code": "REP5",
+      "counts_file": "counts/counts_rep5_z_r4_A_ab.json",
+      "counts_sha256": "594377c99167b1eb771c26df1ffce32a7bd4fd2ca8cc87013ef36f926ecb53d2",
+      "job_id": "da8i2dce74ec73aim5p0",
+      "line": "A"
+    },
+    {
+      "basis": "X",
+      "code": "REP5",
+      "counts_file": "counts/counts_rep5_x_r4_A_ab.json",
+      "counts_sha256": "88bafd43bc2132eb9a203114dc3229d1b13ed81e412894146617c79b4018f894",
+      "job_id": "da8i2dsjbipc73fdp2o0",
+      "line": "A"
+    },
+    {
+      "basis": "Z",
+      "code": "REP5",
+      "counts_file": "counts/counts_rep5_z_r4_B_ab.json",
+      "counts_sha256": "7a8a479efec051f46ac593871a45b8773bfdc6d68545b1230c94aa51885c8771",
+      "job_id": "da8i2e6rbfbs73cgigm0",
+      "line": "B"
+    },
+    {
+      "basis": "X",
+      "code": "REP5",
+      "counts_file": "counts/counts_rep5_x_r4_B_ab.json",
+      "counts_sha256": "3a7b55fa5d24b9e3b1532ca1f54239a51b80591613d882f73e6210d9deae19b6",
+      "job_id": "da8i2eke74ec73aim5s0",
+      "line": "B"
+    }
+  ],
+  "script": "ap02_ab_layout.py --retrieve",
+  "selection_digest": "b2c7c36e33daf9f9c80a9c08503d4308e7e5c921092582877b1ad261bf2aa87d",
+  "timestamp_utc": "2026-08-28T06:22:48.022079+00:00"
+}

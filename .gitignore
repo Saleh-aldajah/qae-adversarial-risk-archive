@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+comparator/logs/
+qae_experiments/logs/
+comparator/results/*.ckpt.json
+comparator/results/*.samples.npz
+.DS_Store

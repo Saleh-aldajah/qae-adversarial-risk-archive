@@ -1,0 +1,28 @@
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+Test: Importing symatch_prep
+144 points in parallelogram
+Initialized STIM circuit
+Added parity check matrices
+<Unnamed CSS code>
+ -Block dimensions: Pass
+ -PCMs commute hz@hx.T==0: Pass
+ -PCMs commute hx@hz.T==0: Pass
+ -lx \in ker{hz} AND lz \in ker{hx}: Pass
+ -lx and lz anticommute: Pass
+ -<Unnamed CSS code> is a valid CSS code w/ params [72,12,nan]
+Extracted Z symmetries:  6 symmetries of lengths [16. 18.]
+RESCUE sym_simplex p=0.008: 458/10000 [0.04187,0.05007] (2201s)
+Traceback (most recent call last):
+  File "/mnt/agents/output/qec-work/comparator/rescue_simplex.py", line 32, in <module>
+    run_one(p)
+  File "/mnt/agents/output/qec-work/comparator/rescue_simplex.py", line 27, in run_one
+    np.save(out, fails)
+  File "/mnt/agents/output/qec-work/venv-symatch/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 568, in save
+    file_ctx = open(file, "wb")
+               ^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/mnt/agents/output/qec-work/comparator/results/failbits/sym_simplex_0.006.npy'

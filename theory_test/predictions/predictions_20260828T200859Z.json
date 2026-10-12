@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-08-28T20:08:59.468384+00:00",
+  "protocol": {
+    "SHARP_MIN": {
+      "REP3": 0.85,
+      "REP5": 0.9
+    },
+    "TOL_DET": 0.005,
+    "TOL_STOCH": 0.002,
+    "injection_round": 2,
+    "layout": "active-provenance B-lines, fixed across arms",
+    "rounds": 4,
+    "seed_formula": "stable_seed('INJTT', code, basis, arm/p, variant)",
+    "tests": [
+      {
+        "arm": "w2",
+        "basis": "Z",
+        "code": "REP5",
+        "rule": "LFR_w2 <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w3",
+        "basis": "Z",
+        "code": "REP5",
+        "rule": "LFR_w3 >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "p0.01",
+        "basis": "Z",
+        "binom_tail": 9.850600000000002e-06,
+        "code": "REP5",
+        "rule": "LFR(0.01) <= d0_hi + 9.851e-06 + 0.002",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.05",
+        "basis": "Z",
+        "binom_tail": 0.0011581250000000003,
+        "code": "REP5",
+        "rule": "LFR(0.05) <= d0_hi + 1.158e-03 + 0.002",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.1",
+        "basis": "Z",
+        "binom_tail": 0.008560000000000002,
+        "code": "REP5",
+        "rule": "LFR(0.1) <= d0_hi + 8.560e-03 + 0.002",
+        "type": "stochastic"
+      },
+      {
+        "arm": "w2",
+        "basis": "X",
+        "code": "REP5",
+        "rule": "LFR_w2 <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w3",
+        "basis": "X",
+        "code": "REP5",
+        "rule": "LFR_w3 >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "p0.01",
+        "basis": "X",
+        "binom_tail": 9.850600000000002e-06,
+        "code": "REP5",
+        "rule": "LFR(0.01) <= d0_hi + 9.851e-06 + 0.002",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.05",
+        "basis": "X",
+        "binom_tail": 0.0011581250000000003,
+        "code": "REP5",
+        "rule": "LFR(0.05) <= d0_hi + 1.158e-03 + 0.002",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.1",
+        "basis": "X",
+        "binom_tail": 0.008560000000000002,
+        "code": "REP5",
+        "rule": "LFR(0.1) <= d0_hi + 8.560e-03 + 0.002",
+        "type": "stochastic"
+      },
+      {
+        "arm": "w1",
+        "basis": "Z",
+        "code": "REP3",
+        "rule": "LFR_w1 <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w2",
+        "basis": "Z",
+        "code": "REP3",
+        "rule": "LFR_w2 >= 0.85",
+        "type": "sharp"
+      },
+      {
+        "arm": "w1",
+        "basis": "X",
+        "code": "REP3",
+        "rule": "LFR_w1 <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w2",
+        "basis": "X",
+        "code": "REP3",
+        "rule": "LFR_w2 >= 0.85",
+        "type": "sharp"
+      }
+    ]
+  }
+}

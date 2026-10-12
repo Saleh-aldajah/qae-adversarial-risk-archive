@@ -1,0 +1,5 @@
+{
+ "conclusion": "No stochastic cell exceeds the mask-conditioned naive threshold; the v23 \"naive bound falsified\" verdict is NOT SUPPORTED under the correct fixed-mask estimand and is withdrawn. The Binomial x Poisson composed model is relabelled as a discovery motivated by campaign-1 deviations, not a prespecified prediction.",
+ "any_cell_exceeds_conditioned": false,
+ "cells": 12
+}

@@ -1,0 +1,10 @@
+experiment,code,p_gate_equals_p_prep_equals_p_meas,p_idle_data,trials,success_rate,logical_failure_rate,fraction_failures_with_syndrome_flip,mean_data_pauli_support_weight,cnot_count_per_cycle
+single_cycle_circuit_propagation,BB72,0.0005,2.5e-05,5000,0.95,0.05,0.52,0.506,432
+single_cycle_circuit_propagation,BB72,0.001,5e-05,5000,0.874,0.126,0.5238095238095238,1.294,432
+single_cycle_circuit_propagation,BB72,0.002,0.0001,5000,0.76,0.24,0.5583333333333333,2.38,432
+single_cycle_circuit_propagation,BB72,0.003,0.00015,5000,0.612,0.388,0.5360824742268041,3.672,432
+single_cycle_circuit_propagation,BB72,0.005,0.00025,5000,0.414,0.586,0.5494880546075085,5.388,432
+single_cycle_circuit_propagation,BB72,0.0075,0.000375,5000,0.18,0.82,0.5341463414634147,8.56,432
+single_cycle_circuit_propagation,BB72,0.01,0.0005,5000,0.114,0.886,0.5936794582392777,11.144,432
+single_cycle_circuit_propagation,BB72,0.015,0.00075,5000,0.016,0.984,0.7073170731707317,15.56,432
+single_cycle_circuit_propagation,BB72,0.02,0.001,5000,0.004,0.996,0.7710843373493976,20.002,432

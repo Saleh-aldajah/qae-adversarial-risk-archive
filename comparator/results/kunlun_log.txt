@@ -1,0 +1,38 @@
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+Test: Importing symatch_prep
+  cyc1 X BP-OSD      :  2103/10000 [0.2024,0.2184] (27s)
+  cyc1 X BP-only     :  2324/10000 [0.2242,0.2408] (40s)
+  cyc1 X MWPM-prior  :  4270/10000 [0.4173,0.4367] (0s)
+  cyc1 X BeliefMatch :  4231/10000 [0.4134,0.4328] (28s)
+  cyc1 X Relay-BP    :  2082/10000 [0.2004,0.2163] (2s)
+  cyc1 Z BP-OSD      :  2248/10000 [0.2167,0.2331] (30s)
+  cyc1 Z BP-only     :  2502/10000 [0.2418,0.2588] (18s)
+  cyc1 Z MWPM-prior  :  5365/10000 [0.5267,0.5463] (0s)
+  cyc1 Z BeliefMatch :  5299/10000 [0.5201,0.5397] (43s)
+  cyc1 Z Relay-BP    :  2223/10000 [0.2143,0.2306] (1s)
+  cyc3 X BP-OSD      :  5489/10000 [0.5391,0.5586] (242s)
+  cyc3 X BP-only     :  5897/10000 [0.5800,0.5993] (204s)
+  cyc3 X MWPM-prior  :  7653/10000 [0.7569,0.7735] (0s)
+  cyc3 X BeliefMatch :  7507/10000 [0.7421,0.7591] (212s)
+  cyc3 X Relay-BP    :  5489/10000 [0.5391,0.5586] (6s)
+  cyc3 Z BP-OSD      :  5190/10000 [0.5092,0.5288] (182s)
+  cyc3 Z BP-only     :  5626/10000 [0.5529,0.5723] (186s)
+  cyc3 Z MWPM-prior  :  8155/10000 [0.8078,0.8230] (0s)
+  cyc3 Z BeliefMatch :  7836/10000 [0.7754,0.7916] (208s)
+  cyc3 Z Relay-BP    :  5123/10000 [0.5025,0.5221] (5s)
+  cyc6 X BP-OSD      :  7952/10000 [0.7872,0.8030] (700s)
+  cyc6 X BP-only     :  8208/10000 [0.8132,0.8282] (702s)
+  cyc6 X MWPM-prior  :  9026/10000 [0.8966,0.9083] (0s)
+  cyc6 X BeliefMatch :  8921/10000 [0.8859,0.8980] (609s)
+  cyc6 X Relay-BP    :  7887/10000 [0.7806,0.7966] (13s)
+  cyc6 Z BP-OSD      :  7728/10000 [0.7645,0.7809] (547s)
+  cyc6 Z BP-only     :  8111/10000 [0.8033,0.8187] (653s)
+  cyc6 Z MWPM-prior  :  9237/10000 [0.9183,0.9287] (0s)
+  cyc6 Z BeliefMatch :  9109/10000 [0.9052,0.9163] (678s)
+  cyc6 Z Relay-BP    :  7670/10000 [0.7586,0.7752] (20s)
+kunlun comparator done in 5365s

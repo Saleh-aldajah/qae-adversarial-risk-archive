@@ -1,0 +1,32 @@
+{
+  "circuit_rev": "v24-corrected-extraction",
+  "all_pass": true,
+  "tests": {
+    "T1_gadget_parity": {
+      "pass_": true,
+      "correct_parity_all_inputs": true,
+      "reversed_returns_constant_zero": true
+    },
+    "T2_codespace": {
+      "pass_": true,
+      "all_detectors_silent": true,
+      "final_readout_in_codespace": true,
+      "z_anchor_zero": true,
+      "logical_values_and_syndrome_preserved": true,
+      "out_of_codespace_fires_predicted": true
+    },
+    "T3_injection_columns": {
+      "pass_": true,
+      "x_injection_matches_HZ_columns": true,
+      "z_injection_matches_HX_columns": true,
+      "bad_z_columns": [],
+      "bad_x_columns": []
+    },
+    "T4_detector_observable_audit": {
+      "pass_": true,
+      "detector_map_exact": true,
+      "observable_map_exact": true,
+      "logical_basis_css": true
+    }
+  }
+}

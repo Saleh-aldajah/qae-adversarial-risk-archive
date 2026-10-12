@@ -1,0 +1,627 @@
+{
+  "jobs": [
+    {
+      "arm": "D",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_D",
+      "job_id": "db5b8p2mb58s738a8rn0",
+      "name": "dose0ns",
+      "shots": 10000
+    },
+    {
+      "arm": "D",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_D",
+      "job_id": "db5b8p2mb58s738a8rn0",
+      "name": "dose1000ns",
+      "shots": 10000
+    },
+    {
+      "arm": "D",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_D",
+      "job_id": "db5b8p2mb58s738a8rn0",
+      "name": "dose2000ns",
+      "shots": 10000
+    },
+    {
+      "arm": "D",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_D",
+      "job_id": "db5b8p2mb58s738a8rn0",
+      "name": "dose4000ns",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r0",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r1",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r2",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r3",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r9",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r10",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r11",
+      "shots": 10000
+    },
+    {
+      "arm": "P",
+      "basis": "Z",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_P",
+      "job_id": "db5b8pclf4us73c3q9e0",
+      "name": "place_r12",
+      "shots": 10000
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v00",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v01",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v02",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v03",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v04",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v05",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v06",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v07",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v08",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v09",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v10",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v11",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v12",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v13",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v14",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v15",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v16",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v17",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v18",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v19",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v20",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v21",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v22",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v23",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v24",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v25",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v26",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v27",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v28",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v29",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v30",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v31",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v32",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v33",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v34",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v35",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v36",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v37",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v38",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v39",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v40",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v41",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v42",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v43",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v44",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v45",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v46",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v47",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v48",
+      "shots": 800
+    },
+    {
+      "arm": "T",
+      "basis": "X",
+      "campaign": "C",
+      "code": "REP5",
+      "group": "C_T",
+      "job_id": "db5b8pqmb58s738a8rq0",
+      "name": "p0.1_v49",
+      "shots": 800
+    }
+  ],
+  "predictions_file": "predictions_causal_20261010T215538Z.json",
+  "predictions_sha256": "edf5cf664bd3245d08b6574c12d3bed5c588997002fc90a8b59ed43886d25162",
+  "submitted_utc": "2026-10-10T21:55:51.759210+00:00"
+}

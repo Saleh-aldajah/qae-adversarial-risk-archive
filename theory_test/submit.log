@@ -1,0 +1,12 @@
+[pin] predictions: predictions_20260828T200859Z.json sha256=759169c2024d54423fd1a5eb54d46b6501fd5d9f2cd4e1e49b18978c74653cd5
+[build] 312 arms
+qiskit_runtime_service._discover_account:WARNING:2026-08-29 04:09:12,765: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-08-29 04:09:22,777: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-08-29 04:09:22,777: Using instance: open-instance, plan: open
+[snapshot] ibm_marrakesh_snapshot_20260828T200922Z_theorytest.json
+[build] metadata digest-ready; 312 circuits
+[submit] det_x: job da8um21qtnsc73d0v3ug, 6 pubs x 10000 shots
+[submit] det_z: job da8um2ce74ec73aj4n3g, 6 pubs x 10000 shots
+[submit] stoch_x: job da8um31qtnsc73d0v400, 150 pubs x 200 shots
+[submit] stoch_z: job da8um3ke74ec73aj4n50, 150 pubs x 200 shots
+[done] job IDs saved to results/theorytest_jobs.json

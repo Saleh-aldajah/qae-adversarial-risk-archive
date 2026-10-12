@@ -1,0 +1,78 @@
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+/mnt/agents/output/qec-work/venv-symatch/lib/python3.12/site-packages/bposd/css.py:162: SyntaxWarning: invalid escape sequence '\i'
+  print(" -lx \in ker{hz} AND lz \in ker{hx}: Fail")
+/mnt/agents/output/qec-work/venv-symatch/lib/python3.12/site-packages/bposd/css.py:167: SyntaxWarning: invalid escape sequence '\i'
+  print(" -lx \in ker{hz} AND lz \in ker{hx}: Pass")
+/mnt/agents/output/qec-work/venv-symatch/lib/python3.12/site-packages/bposd/css.py:170: SyntaxWarning: invalid escape sequence '\i'
+  print(" -lx \in ker{hz} AND lz \in ker{hx}: Fail")
+/mnt/agents/output/qec-work/venv-symatch/lib/python3.12/site-packages/bposd/stab.py:137: SyntaxWarning: invalid escape sequence '\i'
+  print(" -lx \in ker{hz} AND lz \in ker{hx}: Fail")
+/mnt/agents/output/qec-work/venv-symatch/lib/python3.12/site-packages/bposd/stab.py:140: SyntaxWarning: invalid escape sequence '\i'
+  print("\t-lx \in ker{hz} AND lz \in ker{hx}: Pass")
+Test: Importing symatch_prep
+bposd                  p=0.001: 0.0s/2000 -> est 0s/task
+bposd                  p=0.002: 0.0s/2000 -> est 0s/task
+bposd                  p=0.004: 0.0s/2000 -> est 0s/task
+bposd                  p=0.006: 0.0s/2000 -> est 0s/task
+bposd                  p=0.008: 0.0s/2000 -> est 0s/task
+bposd                  p=0.010: 0.0s/2000 -> est 0s/task
+bposd                  p=0.012: 0.0s/2000 -> est 0s/task
+relay                  p=0.001: 0.0s/2000 -> est 0s/task
+relay                  p=0.002: 0.0s/2000 -> est 0s/task
+relay                  p=0.004: 0.0s/2000 -> est 0s/task
+relay                  p=0.006: 0.0s/2000 -> est 0s/task
+relay                  p=0.008: 0.0s/2000 -> est 0s/task
+relay                  p=0.010: 0.0s/2000 -> est 0s/task
+relay                  p=0.012: 0.0s/2000 -> est 0s/task
+144 points in parallelogram
+Initialized STIM circuit
+Added parity check matrices
+<Unnamed CSS code>
+ -Block dimensions: Pass
+ -PCMs commute hz@hx.T==0: Pass
+ -PCMs commute hx@hz.T==0: Pass
+ -lx \in ker{hz} AND lz \in ker{hx}: Pass
+ -lx and lz anticommute: Pass
+ -<Unnamed CSS code> is a valid CSS code w/ params [72,12,nan]
+Extracted Z symmetries:  6 symmetries of lengths [16. 18.]
+sym_bare               p=0.001: 11.2s/2000 -> est 56s/task
+sym_bare               p=0.002: 11.1s/2000 -> est 55s/task
+sym_bare               p=0.004: 11.0s/2000 -> est 55s/task
+sym_bare               p=0.006: 10.9s/2000 -> est 54s/task
+sym_bare               p=0.008: 10.9s/2000 -> est 55s/task
+sym_bare               p=0.010: 10.9s/2000 -> est 54s/task
+sym_bare               p=0.012: 10.8s/2000 -> est 54s/task
+sym_simplex            p=0.001: 11.1s/100 -> est 1110s/task
+sym_simplex            p=0.002: 10.9s/100 -> est 1091s/task
+sym_simplex            p=0.004: 10.9s/100 -> est 1086s/task
+sym_simplex            p=0.006: 10.9s/100 -> est 1095s/task
+sym_simplex            p=0.008: 11.0s/100 -> est 1095s/task
+sym_simplex            p=0.010: 11.0s/100 -> est 1097s/task
+sym_simplex            p=0.012: 13.1s/100 -> est 1312s/task
+sym_pre_simplex        p=0.001: 0.5s/100 -> est 53s/task
+sym_pre_simplex        p=0.002: 0.2s/100 -> est 19s/task
+sym_pre_simplex        p=0.004: 0.2s/100 -> est 24s/task
+sym_pre_simplex        p=0.006: 0.5s/100 -> est 51s/task
+sym_pre_simplex        p=0.008: 0.7s/100 -> est 67s/task
+sym_pre_simplex        p=0.010: 1.1s/100 -> est 111s/task
+sym_pre_simplex        p=0.012: 1.5s/100 -> est 148s/task
+sym_bp_simplex         p=0.001: 0.0s/200 -> est 2s/task
+sym_bp_simplex         p=0.002: 0.0s/200 -> est 2s/task
+sym_bp_simplex         p=0.004: 0.0s/200 -> est 2s/task
+sym_bp_simplex         p=0.006: 0.0s/200 -> est 2s/task
+sym_bp_simplex         p=0.008: 0.0s/200 -> est 2s/task
+sym_bp_simplex         p=0.010: 0.0s/200 -> est 2s/task
+sym_bp_simplex         p=0.012: 0.0s/200 -> est 2s/task
+sym_bp_pre_simplex     p=0.001: 0.0s/200 -> est 2s/task
+sym_bp_pre_simplex     p=0.002: 0.1s/200 -> est 3s/task
+sym_bp_pre_simplex     p=0.004: 0.0s/200 -> est 2s/task
+sym_bp_pre_simplex     p=0.006: 0.0s/200 -> est 2s/task
+sym_bp_pre_simplex     p=0.008: 0.0s/200 -> est 2s/task
+sym_bp_pre_simplex     p=0.010: 0.0s/200 -> est 2s/task
+sym_bp_pre_simplex     p=0.012: 0.0s/200 -> est 2s/task
+wrote /mnt/agents/output/qec-work/comparator/results/comparator_timing.csv

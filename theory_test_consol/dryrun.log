@@ -1,0 +1,15 @@
+qiskit_runtime_service._discover_account:WARNING:2026-09-06 20:03:23,754: Loading account with the given token. A saved account will not be used.
+qiskit_runtime_service.__init__:WARNING:2026-09-06 20:03:32,143: Instance was not set at service instantiation. Free and trial plan instances will be prioritized. Based on the following filters: (tags: None, region: us-east, eu-de), and available plans: (open), the available account instances are: open-instance. If you need a specific instance set it explicitly either by using a saved account with a saved default instance or passing it in directly to QiskitRuntimeService(). Alternatively, pass instance='auto' or save it to your account for auto-selection without warning.
+qiskit_runtime_service.backends:WARNING:2026-09-06 20:03:32,143: Using instance: open-instance, plan: open
+qiskit_runtime_service.backends:WARNING:2026-09-06 20:03:34,576: Using instance: open-instance, plan: open
+[snapshot] A=ibm_marrakesh ibm_marrakesh_snapshot_20260906T120312Z_consol.json sha256=6b348f870d14525c...
+[snapshot] B=ibm_fez ibm_fez_snapshot_20260906T120312Z_consol.json sha256=bbdd22e404a669e6...
+[layout] A: REP3=[6, 7, 8, 9, 10], REP5=[2, 3, 4, 5, 6, 7, 8, 9, 10], REP7=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] (selection sha256=406e0cba751ed0d0...)
+[layout] B: REP5=[0, 1, 2, 3, 4, 5, 6, 7, 8] (selection sha256=af362937692d71a0...)
+[lambda_N] A: REP3=0.088, REP5=0.222, REP7=0.347
+[lambda_N] B: REP5=0.453
+[pin] predictions: predictions_consol_20260906T120312Z.json sha256=8cf4d6693fe05843e040ee926d8d3aa5555d84ff888c079b2dc53eafb4703bfc
+[sim] 24 det + 18 stoch-sample arms (noiseless, 512 shots)
+[sim] ALL PASS (42 arms)
+[build] 324 circuits transpiled + digested
+[dry-run] no submission.

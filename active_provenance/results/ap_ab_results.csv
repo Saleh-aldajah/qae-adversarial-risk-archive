@@ -1,0 +1,5 @@
+code,basis,A_fail,A_shots,A_ler,A_ci,B_fail,B_shots,B_ler,B_ci,z_B_minus_A,A_job,B_job
+REP3,Z,19,10000,0.0019,"[0.00122, 0.00297]",15,10000,0.0015,"[0.000909, 0.00247]",-0.687,da8i2bpqtnsc73d0ghlg,da8i2ckjbipc73fdp2mg
+REP3,X,30,10000,0.003,"[0.0021, 0.00428]",21,10000,0.0021,"[0.00137, 0.00321]",-1.262,da8i2c1qtnsc73d0ghmg,da8i2d6rbfbs73cgigl0
+REP5,Z,1,10000,0.0001,"[1.77e-05, 0.000566]",0,10000,0,"[0, 0.000384]",-1.000,da8i2dce74ec73aim5p0,da8i2e6rbfbs73cgigm0
+REP5,X,7,10000,0.0007,"[0.000339, 0.00144]",4,10000,0.0004,"[0.000156, 0.00103]",-0.905,da8i2dsjbipc73fdp2o0,da8i2eke74ec73aim5s0

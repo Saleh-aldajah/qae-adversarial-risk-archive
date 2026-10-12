@@ -1,0 +1,18 @@
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+Test: Importing symatch_prep
+  WSC BP+OSD      p=0.002:  2472/20000 (nomatch 0) [0.11911,0.12823]
+  WSC Relay-BP    p=0.002:  1221/20000 (nomatch 0) [0.05782,0.06445]
+  WSC MWPM-chain  p=0.002: 17683/20000 (nomatch 0) [0.87964,0.88851]
+  WSC MWPM-stim   p=0.002: 18153/20000 (nomatch 18153) [0.90356,0.91158]
+  WSC BeliefMatch p=0.002: 17356/20000 (nomatch 0) [0.86304,0.87242]
+  WSC BP+OSD      p=0.006: 14903/20000 (nomatch 0) [0.73906,0.75114]
+  WSC Relay-BP    p=0.006: 13423/20000 (nomatch 0) [0.66461,0.67763]
+  WSC MWPM-chain  p=0.006: 19935/20000 (nomatch 0) [0.99586,0.99745]
+  WSC MWPM-stim   p=0.006: 19975/20000 (nomatch 19975) [0.99816,0.99915]
+  WSC BeliefMatch p=0.006: 19923/20000 (nomatch 0) [0.99519,0.99692]
+wsc done -> results/wsc_b.csv

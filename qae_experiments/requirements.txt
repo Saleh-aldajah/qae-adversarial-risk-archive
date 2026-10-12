@@ -1,0 +1,14 @@
+# QAE reproducibility archive — exact dependency versions (v24 lock)
+# Python >= 3.9; versions below are the ones used to produce the v24 artifacts.
+numpy==2.5.2
+scipy==1.18.1
+stim==1.16.0
+ldpc==2.4.1
+pymatching==2.2.2
+relay-bp==0.2.2
+pandas==3.0.5
+matplotlib==3.11.1
+# symatch (SyMatch decoder, weight-1 diagnostic only) is vendored under
+# ../comparator/symatch_prep.py + the symatch_repo checkout; see PATCH_NOTES_V24.md.
+# Hardware pipeline (NOT needed for offline reproduction): see ibm_demo/requirements-ibm.txt
+# (qiskit, qiskit-ibm-runtime). Offline reproduction never submits jobs.

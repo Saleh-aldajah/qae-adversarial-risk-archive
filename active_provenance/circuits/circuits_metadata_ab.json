@@ -1,0 +1,235 @@
+{
+  "circuits": [
+    {
+      "basis": "Z",
+      "code": "REP3",
+      "depth": 40,
+      "file": "circuits/rep3_z_r4_A.qpy",
+      "initial_layout": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "line": "A",
+      "ops": {
+        "barrier": 4,
+        "cz": 16,
+        "measure": 11,
+        "reset": 6,
+        "rz": 32,
+        "sx": 16
+      },
+      "qpy_sha256": "18a0982703fef94c38deda07e18daaa28ab1a56e6c8cc6b51ff55d45c5e23cb3",
+      "rounds": 4,
+      "seed_transpiler": 1850434154,
+      "sha256": "2626ea224670abdd8d997447994ff671fbd1f36e1a5f9e3982522087b6bc1b80"
+    },
+    {
+      "basis": "X",
+      "code": "REP3",
+      "depth": 43,
+      "file": "circuits/rep3_x_r4_A.qpy",
+      "initial_layout": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "line": "A",
+      "ops": {
+        "barrier": 4,
+        "cz": 16,
+        "measure": 11,
+        "reset": 6,
+        "rz": 80,
+        "sx": 40
+      },
+      "qpy_sha256": "d32a96a3b52e5aa28900e6edcfdce0a1602c9d062ecd96cc116416abf451eb8c",
+      "rounds": 4,
+      "seed_transpiler": 1858806046,
+      "sha256": "bb45d4df561ec1f7718cb083fcaf0a5ee36ed57728e26d66ce85469bf48c04d8"
+    },
+    {
+      "basis": "Z",
+      "code": "REP3",
+      "depth": 40,
+      "file": "circuits/rep3_z_r4_B.qpy",
+      "initial_layout": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "line": "B",
+      "ops": {
+        "barrier": 4,
+        "cz": 16,
+        "measure": 11,
+        "reset": 6,
+        "rz": 32,
+        "sx": 16
+      },
+      "qpy_sha256": "fb2629cb9235ec0c4ce9f737248a4c436e0d4a6317f8f75dfacd0552e2d53206",
+      "rounds": 4,
+      "seed_transpiler": 4140505192,
+      "sha256": "c9c91f1707b5651e56aecb824bd92b39933935b0119db6debb5069b801ad52d0"
+    },
+    {
+      "basis": "X",
+      "code": "REP3",
+      "depth": 43,
+      "file": "circuits/rep3_x_r4_B.qpy",
+      "initial_layout": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "line": "B",
+      "ops": {
+        "barrier": 4,
+        "cz": 16,
+        "measure": 11,
+        "reset": 6,
+        "rz": 80,
+        "sx": 40
+      },
+      "qpy_sha256": "0c4690a2df574ff55c6e77df67c788f4a43c1d503d442925f3de3d334547398c",
+      "rounds": 4,
+      "seed_transpiler": 908385736,
+      "sha256": "25ac11742a56d4b74d1f0be264b8a67add63d058e15befcabca5425d7ff398b2"
+    },
+    {
+      "basis": "Z",
+      "code": "REP5",
+      "depth": 40,
+      "file": "circuits/rep5_z_r4_A.qpy",
+      "initial_layout": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "line": "A",
+      "ops": {
+        "barrier": 4,
+        "cz": 32,
+        "measure": 21,
+        "reset": 12,
+        "rz": 64,
+        "sx": 32
+      },
+      "qpy_sha256": "8e0b55909442c838d6f3efb6f84cb7f961e0d9c974104a1bb2adba0dcc037b53",
+      "rounds": 4,
+      "seed_transpiler": 3516359752,
+      "sha256": "4fcdc1148b7f55743d76d0ded15aed9478513674591a8a018095db9a340dd178"
+    },
+    {
+      "basis": "X",
+      "code": "REP5",
+      "depth": 43,
+      "file": "circuits/rep5_x_r4_A.qpy",
+      "initial_layout": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "line": "A",
+      "ops": {
+        "barrier": 4,
+        "cz": 32,
+        "measure": 21,
+        "reset": 12,
+        "rz": 144,
+        "sx": 72
+      },
+      "qpy_sha256": "1e723408da4419cb3c2903cf2f3d1def08c06f13ac7f4d98598de1b51a7d5390",
+      "rounds": 4,
+      "seed_transpiler": 383887733,
+      "sha256": "13b2eeedbb214bca11c4a883f6d7f21d2f972c519da9e7de0f2eb688bb98fcde"
+    },
+    {
+      "basis": "Z",
+      "code": "REP5",
+      "depth": 40,
+      "file": "circuits/rep5_z_r4_B.qpy",
+      "initial_layout": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "line": "B",
+      "ops": {
+        "barrier": 4,
+        "cz": 32,
+        "measure": 21,
+        "reset": 12,
+        "rz": 64,
+        "sx": 32
+      },
+      "qpy_sha256": "1fffc1243957daa80d09be277a23bde8b5983eeb6fb70a60d82dfd1477661e77",
+      "rounds": 4,
+      "seed_transpiler": 711966326,
+      "sha256": "08a462033318f18d1958a0e898f611b957b4804719d3391a2993ca7aa218d97a"
+    },
+    {
+      "basis": "X",
+      "code": "REP5",
+      "depth": 43,
+      "file": "circuits/rep5_x_r4_B.qpy",
+      "initial_layout": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "line": "B",
+      "ops": {
+        "barrier": 4,
+        "cz": 32,
+        "measure": 21,
+        "reset": 12,
+        "rz": 144,
+        "sx": 72
+      },
+      "qpy_sha256": "d43f0b4e50b8d74f9fc5126d575fece588f677ba52f4bd4b80aab637b83332e4",
+      "rounds": 4,
+      "seed_transpiler": 392750835,
+      "sha256": "dad9e20f8e8ef2ac90c5e791f80a82bf9f157fc8d7d50050d75380e3a2961cdc"
+    }
+  ],
+  "optimization_level": 1,
+  "rounds": 4,
+  "script": "ap02_ab_layout.py",
+  "seed_formula": "#16 stable_seed('IBMAB', code, basis, rounds, line)",
+  "selection_digest": "b2c7c36e33daf9f9c80a9c08503d4308e7e5c921092582877b1ad261bf2aa87d",
+  "shots": 10000,
+  "timestamp_utc": "2026-08-28T05:48:26.953544+00:00"
+}

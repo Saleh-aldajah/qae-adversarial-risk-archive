@@ -1,0 +1,2923 @@
+{
+  "jobs": [
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP3",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP3",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "w1",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP3",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "w2",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "w2",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "w3",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP7",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP7",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "w3",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP7",
+      "group": "A_det_x",
+      "job_id": "daelek5nj4cs73afaqpg",
+      "name": "w4",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP3",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP3",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "w1",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP3",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "w2",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "w2",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "w3",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP7",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP7",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "w3",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP7",
+      "group": "A_det_z",
+      "job_id": "daelekd1ierc738mai50",
+      "name": "w4",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v00",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v01",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v02",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v03",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v04",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v05",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v06",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v07",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v08",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v09",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v10",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v11",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v12",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v13",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v14",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v15",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v16",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v17",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v18",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v19",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v20",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v21",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v22",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v23",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v24",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v25",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v26",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v27",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v28",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v29",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v30",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v31",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v32",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v33",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v34",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v35",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v36",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v37",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v38",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v39",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v40",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v41",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v42",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v43",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v44",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v45",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v46",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v47",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v48",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.01_v49",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v00",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v01",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v02",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v03",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v04",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v05",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v06",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v07",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v08",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v09",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v10",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v11",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v12",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v13",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v14",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v15",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v16",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v17",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v18",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v19",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v20",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v21",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v22",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v23",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v24",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v25",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v26",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v27",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v28",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v29",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v30",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v31",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v32",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v33",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v34",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v35",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v36",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v37",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v38",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v39",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v40",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v41",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v42",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v43",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v44",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v45",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v46",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v47",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v48",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.05_v49",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v00",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v01",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v02",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v03",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v04",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v05",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v06",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v07",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v08",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v09",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v10",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v11",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v12",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v13",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v14",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v15",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v16",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v17",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v18",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v19",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v20",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v21",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v22",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v23",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v24",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v25",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v26",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v27",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v28",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v29",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v30",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v31",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v32",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v33",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v34",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v35",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v36",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v37",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v38",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v39",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v40",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v41",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v42",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v43",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v44",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v45",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v46",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v47",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v48",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_x",
+      "job_id": "daelel642tqs73auss4g",
+      "name": "p0.1_v49",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v00",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v01",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v02",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v03",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v04",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v05",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v06",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v07",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v08",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v09",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v10",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v11",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v12",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v13",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v14",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v15",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v16",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v17",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v18",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v19",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v20",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v21",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v22",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v23",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v24",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v25",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v26",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v27",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v28",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v29",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v30",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v31",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v32",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v33",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v34",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v35",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v36",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v37",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v38",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v39",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v40",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v41",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v42",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v43",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v44",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v45",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v46",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v47",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v48",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.01_v49",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v00",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v01",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v02",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v03",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v04",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v05",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v06",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v07",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v08",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v09",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v10",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v11",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v12",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v13",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v14",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v15",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v16",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v17",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v18",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v19",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v20",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v21",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v22",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v23",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v24",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v25",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v26",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v27",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v28",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v29",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v30",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v31",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v32",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v33",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v34",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v35",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v36",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v37",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v38",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v39",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v40",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v41",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v42",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v43",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v44",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v45",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v46",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v47",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v48",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.05_v49",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v00",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v01",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v02",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v03",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v04",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v05",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v06",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v07",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v08",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v09",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v10",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v11",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v12",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v13",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v14",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v15",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v16",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v17",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v18",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v19",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v20",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v21",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v22",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v23",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v24",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v25",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v26",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v27",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v28",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v29",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v30",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v31",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v32",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v33",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v34",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v35",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v36",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v37",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v38",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v39",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v40",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v41",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v42",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v43",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v44",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v45",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v46",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v47",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v48",
+      "shots": 200
+    },
+    {
+      "basis": "Z",
+      "campaign": "A",
+      "code": "REP5",
+      "group": "A_stoch_z",
+      "job_id": "daeleljdd5gc73d8pcrg",
+      "name": "p0.1_v49",
+      "shots": 200
+    },
+    {
+      "basis": "X",
+      "campaign": "B",
+      "code": "REP5",
+      "group": "B_det_x",
+      "job_id": "daelelt1ierc738mai7g",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "B",
+      "code": "REP5",
+      "group": "B_det_x",
+      "job_id": "daelelt1ierc738mai7g",
+      "name": "w2",
+      "shots": 10000
+    },
+    {
+      "basis": "X",
+      "campaign": "B",
+      "code": "REP5",
+      "group": "B_det_x",
+      "job_id": "daelelt1ierc738mai7g",
+      "name": "w3",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "B",
+      "code": "REP5",
+      "group": "B_det_z",
+      "job_id": "daelembdd5gc73d8pct0",
+      "name": "base",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "B",
+      "code": "REP5",
+      "group": "B_det_z",
+      "job_id": "daelembdd5gc73d8pct0",
+      "name": "w2",
+      "shots": 10000
+    },
+    {
+      "basis": "Z",
+      "campaign": "B",
+      "code": "REP5",
+      "group": "B_det_z",
+      "job_id": "daelembdd5gc73d8pct0",
+      "name": "w3",
+      "shots": 10000
+    }
+  ],
+  "predictions_file": "predictions_consol_20260906T120520Z.json",
+  "predictions_sha256": "cef236ced89f274ae06d09b1fbeb4f74e9266b70d544fd50ce14f0730de53aa1",
+  "submitted_utc": "2026-09-06T12:06:49.287396+00:00"
+}

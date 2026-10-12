@@ -1,0 +1,5 @@
+code,decoder,failure_rate_threshold,interpolated_p_threshold
+BB72,BP+OSD,0.05,0.008
+BB144,BP+OSD,0.05,0.008
+BB72,MWPM,0.05,0.0047
+BB144,MWPM,0.05,0.0042

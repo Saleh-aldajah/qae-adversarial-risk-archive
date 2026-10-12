@@ -1,0 +1,65 @@
+{
+  "backend": "ibm_marrakesh",
+  "jobs": [
+    {
+      "basis": "Z",
+      "code": "REP3",
+      "job_id": "da8i2bpqtnsc73d0ghlg",
+      "line": "A",
+      "qpy_sha256": "18a0982703fef94c38deda07e18daaa28ab1a56e6c8cc6b51ff55d45c5e23cb3"
+    },
+    {
+      "basis": "X",
+      "code": "REP3",
+      "job_id": "da8i2c1qtnsc73d0ghmg",
+      "line": "A",
+      "qpy_sha256": "d32a96a3b52e5aa28900e6edcfdce0a1602c9d062ecd96cc116416abf451eb8c"
+    },
+    {
+      "basis": "Z",
+      "code": "REP3",
+      "job_id": "da8i2ckjbipc73fdp2mg",
+      "line": "B",
+      "qpy_sha256": "fb2629cb9235ec0c4ce9f737248a4c436e0d4a6317f8f75dfacd0552e2d53206"
+    },
+    {
+      "basis": "X",
+      "code": "REP3",
+      "job_id": "da8i2d6rbfbs73cgigl0",
+      "line": "B",
+      "qpy_sha256": "0c4690a2df574ff55c6e77df67c788f4a43c1d503d442925f3de3d334547398c"
+    },
+    {
+      "basis": "Z",
+      "code": "REP5",
+      "job_id": "da8i2dce74ec73aim5p0",
+      "line": "A",
+      "qpy_sha256": "8e0b55909442c838d6f3efb6f84cb7f961e0d9c974104a1bb2adba0dcc037b53"
+    },
+    {
+      "basis": "X",
+      "code": "REP5",
+      "job_id": "da8i2dsjbipc73fdp2o0",
+      "line": "A",
+      "qpy_sha256": "1e723408da4419cb3c2903cf2f3d1def08c06f13ac7f4d98598de1b51a7d5390"
+    },
+    {
+      "basis": "Z",
+      "code": "REP5",
+      "job_id": "da8i2e6rbfbs73cgigm0",
+      "line": "B",
+      "qpy_sha256": "1fffc1243957daa80d09be277a23bde8b5983eeb6fb70a60d82dfd1477661e77"
+    },
+    {
+      "basis": "X",
+      "code": "REP5",
+      "job_id": "da8i2eke74ec73aim5s0",
+      "line": "B",
+      "qpy_sha256": "d43f0b4e50b8d74f9fc5126d575fece588f677ba52f4bd4b80aab637b83332e4"
+    }
+  ],
+  "script": "ap02_ab_layout.py --submit",
+  "selection_digest": "b2c7c36e33daf9f9c80a9c08503d4308e7e5c921092582877b1ad261bf2aa87d",
+  "shots": 10000,
+  "timestamp_utc": "2026-08-28T05:48:42.433319+00:00"
+}

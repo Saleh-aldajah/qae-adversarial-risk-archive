@@ -1,0 +1,6 @@
+experiment,code,hardware_backend,p_base,T1_us,T2_us,t_gate_us,trials,success_rate,logical_failure_rate,base_two_qubit_gates
+compiled_circuit_propagation,BB72,Superconducting_CZ,0.0005,150.0,100.0,0.2,5000,0.905,0.095,432
+compiled_circuit_propagation,BB72,Superconducting_CZ,0.001,150.0,100.0,0.2,5000,0.79,0.21,432
+compiled_circuit_propagation,BB72,Superconducting_CZ,0.002,150.0,100.0,0.2,5000,0.615,0.385,432
+compiled_circuit_propagation,BB72,Superconducting_CZ,0.003,150.0,100.0,0.2,5000,0.44999999999999996,0.55,432
+compiled_circuit_propagation,BB72,Superconducting_CZ,0.005,150.0,100.0,0.2,5000,0.18000000000000005,0.82,432

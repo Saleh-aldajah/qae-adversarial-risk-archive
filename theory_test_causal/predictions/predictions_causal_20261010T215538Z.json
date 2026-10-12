@@ -1,0 +1,210 @@
+{
+  "best_line": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "campaign": "causal-ablation-2026",
+  "created_utc": "2026-10-10T21:55:45.599119+00:00",
+  "device": "ibm_marrakesh",
+  "place_picks": [
+    {
+      "rank": 0,
+      "window": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "rank": 1,
+      "window": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "rank": 2,
+      "window": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "rank": 3,
+      "window": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "rank": 9,
+      "window": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        35,
+        34,
+        33
+      ]
+    },
+    {
+      "rank": 10,
+      "window": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        35
+      ]
+    },
+    {
+      "rank": 11,
+      "window": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "rank": 12,
+      "window": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19
+      ]
+    }
+  ],
+  "place_selection_csv_sha256": "227c3846f4596dcaa14196940f02ab28cc8df5ff49865acf384d5e982c8e8390",
+  "protocol": {
+    "basis_D_P": "Z",
+    "d": 5,
+    "dose_rule": "uniform per-round idle delay on all qubits, rounds-1 insertions; total added idle = (rounds-1)*dose",
+    "doses_ns": [
+      0,
+      1000,
+      2000,
+      4000
+    ],
+    "noiseless_gate": "every D and P pub must decode to LFR=0 under noiseless Aer; T sample variants with mask weight <= 2 must decode to 0 fails",
+    "optimization_level": 1,
+    "place_rule": "contiguous 9-qubit windows of the verified reference path ranked by the pinned snapshot-only metrology score (readout + idle + CZ); ranks 0-3 and last-4",
+    "rounds": 4,
+    "shots": {
+      "D": 10000,
+      "P": 10000,
+      "T": 800
+    },
+    "tests": [
+      {
+        "id": "D1",
+        "rule": "one-sided two-proportion z: LFR(4000ns) > LFR(0ns) at alpha=0.01; causal claim on gate/idle decoherence",
+        "type": "primary"
+      },
+      {
+        "id": "D2",
+        "rule": "LFR monotone non-decreasing across the dose ladder",
+        "type": "descriptive"
+      },
+      {
+        "id": "P1",
+        "rule": "Spearman rho(window metrology rank, measured LFR rank) >= 0.75 across the 8 placements",
+        "type": "primary"
+      },
+      {
+        "id": "P2",
+        "rule": "one-sided two-proportion z: pooled worst-4 LFR > pooled best-4 LFR at alpha=0.01",
+        "type": "primary"
+      },
+      {
+        "id": "T1",
+        "rule": "merged Wilson 95% width strictly below the archived width; no pass/fail bound verdict re-rendered",
+        "type": "tightening"
+      }
+    ],
+    "tightening_cell": {
+      "basis": "X",
+      "ci_hi": 0.044334404958444616,
+      "ci_lo": 0.03661865611361393,
+      "code": "REP5",
+      "failures": 403,
+      "p": 0.1,
+      "shots": 10000
+    },
+    "tightening_rule": "aggregate archived consolidation stoch rows by (code,basis,p); widest pooled Wilson 95% cell with >=1 failure; re-run all 50 variants at 4x",
+    "transpile_seed_formula": "stable_seed('INJCA', arm, code, basis, name)"
+  },
+  "purpose": "convert simulation-only hardware ablations (SWAP routing/placement, gate/idle decoherence) into causal device claims, and tighten the widest archived stochastic interval",
+  "reference_campaigns": {
+    "campaign1": {
+      "backend": "ibm_marrakesh",
+      "date": "2026-08-28"
+    },
+    "consolidation": {
+      "backends": [
+        "ibm_marrakesh",
+        "ibm_fez"
+      ],
+      "date": "2026-09-06"
+    }
+  },
+  "snapshots": {
+    "backend_version": 2,
+    "calibration_last_update": "2026-10-11 00:47:23+04:00",
+    "file": "ibm_marrakesh_snapshot_20261010T215538Z_consol.json",
+    "sha256": "2a27a00d1585c6cc0a9e6d67d229f7b1b243c2805f2e81a625d539a5b611c254",
+    "snapshot_utc": "20261010T215544Z"
+  }
+}

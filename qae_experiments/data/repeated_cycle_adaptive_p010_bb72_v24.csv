@@ -1,0 +1,2 @@
+exp,code,decoder,rounds,p,trials,failures,lfr,ci_lo,ci_hi,seed,n_batches,batch_seeds,stop_reason,model_rev,hx_sha256,hz_sha256
+E3_rc_adaptive_v24,bb72,BP+OSD,6,0.01,4000,64,0.016,0.01255,0.020379,3416605964,2,3416605964;267043982,>=50 failures,v24-aligned-priors,7ab0973bfd02e399d69728d26e67dbfa0e95bbc6ad2c5cf8bf309d667244a5a8,267f345c09710ec0cfad1e49e0786b2636ab052fbfb660e5a76ae9919ba22614

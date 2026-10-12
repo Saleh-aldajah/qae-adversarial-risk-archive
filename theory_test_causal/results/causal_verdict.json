@@ -1,0 +1,68 @@
+{
+  "evaluated_utc": "2026-10-11T06:11:17.562109+00:00",
+  "predictions_file": "predictions_causal_20261010T215538Z.json",
+  "predictions_sha256": "edf5cf664bd3245d08b6574c12d3bed5c588997002fc90a8b59ed43886d25162",
+  "summary": "1/5 pre-registered tests passed",
+  "tests": [
+    {
+      "alpha": 0.01,
+      "id": "D1",
+      "lfr_dose0": 0.0,
+      "lfr_dose_max": 0.0,
+      "p_one_sided": 0.5,
+      "pass": false,
+      "z": 0.0
+    },
+    {
+      "id": "D2",
+      "lfr_by_dose": [
+        0.0,
+        0.0001,
+        0.0,
+        0.0
+      ],
+      "monotone_nondec": false
+    },
+    {
+      "id": "P1",
+      "pass": false,
+      "spearman_rho": 0.27297303402259915,
+      "threshold": 0.75
+    },
+    {
+      "alpha": 0.01,
+      "best4_lfr": 0.000225,
+      "id": "P2",
+      "p_one_sided": 0.05830252466162443,
+      "pass": false,
+      "worst4_lfr": 0.000425,
+      "z": 1.5691840942422874
+    },
+    {
+      "archived": {
+        "failures": 403,
+        "shots": 10000,
+        "width": 0.007715748844830686
+      },
+      "cell": {
+        "basis": "X",
+        "code": "REP5",
+        "p": 0.1
+      },
+      "id": "T1",
+      "merged": {
+        "ci_hi": 0.042590002505352935,
+        "ci_lo": 0.03912055150936101,
+        "failures": 2041,
+        "shots": 50000,
+        "width": 0.0034694509959919267
+      },
+      "new_campaign": {
+        "failures": 1638,
+        "shots": 40000
+      },
+      "pass": true,
+      "width_ratio": 0.44965836314337165
+    }
+  ]
+}

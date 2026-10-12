@@ -1,0 +1,778 @@
+{
+ "analyzed_utc": "2026-09-06T12:09:51.280035+00:00",
+ "devices": {
+  "A": "ibm_marrakesh",
+  "B": "ibm_fez"
+ },
+ "lambda_N": {
+  "A": {
+   "REP3": 0.087646484375,
+   "REP5": 0.2216796875,
+   "REP7": 0.3466796875
+  },
+  "B": {
+   "REP5": 0.452880859375
+  }
+ },
+ "layouts": {
+  "A": {
+   "REP3": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "REP5": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "REP7": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  "B": {
+   "REP5": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  }
+ },
+ "predictions_sha256": "cef236ced89f274ae06d09b1fbeb4f74e9266b70d544fd50ce14f0730de53aa1",
+ "replication_vs_20260828": [
+  {
+   "abs_diff": 0.0021,
+   "arm": "base",
+   "basis": "X",
+   "code": "REP3",
+   "consistent": false,
+   "ler_20260828": 0.0028,
+   "ler_20260906": 0.0007,
+   "z": 3.5538795057949373
+  },
+  {
+   "abs_diff": 0.011600000000000003,
+   "arm": "w1",
+   "basis": "X",
+   "code": "REP3",
+   "consistent": false,
+   "ler_20260828": 0.0318,
+   "ler_20260906": 0.0202,
+   "z": 5.157811732011535
+  },
+  {
+   "abs_diff": 0.019199999999999995,
+   "arm": "w2",
+   "basis": "X",
+   "code": "REP3",
+   "consistent": false,
+   "ler_20260828": 0.924,
+   "ler_20260906": 0.9048,
+   "z": 4.855534727566713
+  },
+  {
+   "abs_diff": 0.0012,
+   "arm": "base",
+   "basis": "Z",
+   "code": "REP3",
+   "consistent": false,
+   "ler_20260828": 0.0014,
+   "ler_20260906": 0.0002,
+   "z": 3.001876759645559
+  },
+  {
+   "abs_diff": 0.0174,
+   "arm": "w1",
+   "basis": "Z",
+   "code": "REP3",
+   "consistent": false,
+   "ler_20260828": 0.0276,
+   "ler_20260906": 0.0102,
+   "z": 9.053883459172932
+  },
+  {
+   "abs_diff": 0.03170000000000006,
+   "arm": "w2",
+   "basis": "Z",
+   "code": "REP3",
+   "consistent": false,
+   "ler_20260828": 0.9292,
+   "ler_20260906": 0.8975,
+   "z": 7.980530444569004
+  },
+  {
+   "abs_diff": 0.0001,
+   "arm": "base",
+   "basis": "X",
+   "code": "REP5",
+   "consistent": true,
+   "ler_20260828": 0.0002,
+   "ler_20260906": 0.0001,
+   "z": 0.577398387726959
+  },
+  {
+   "abs_diff": 0.006999999999999999,
+   "arm": "w2",
+   "basis": "X",
+   "code": "REP5",
+   "consistent": true,
+   "ler_20260828": 0.0506,
+   "ler_20260906": 0.0436,
+   "z": 2.3367282095149244
+  },
+  {
+   "abs_diff": 0.014500000000000068,
+   "arm": "w3",
+   "basis": "X",
+   "code": "REP5",
+   "consistent": false,
+   "ler_20260828": 0.9598,
+   "ler_20260906": 0.9743,
+   "z": 5.748563412034637
+  },
+  {
+   "abs_diff": 0.0,
+   "arm": "base",
+   "basis": "Z",
+   "code": "REP5",
+   "consistent": true,
+   "ler_20260828": 0.0,
+   "ler_20260906": 0.0,
+   "z": 0.0
+  },
+  {
+   "abs_diff": 0.008099999999999996,
+   "arm": "w2",
+   "basis": "Z",
+   "code": "REP5",
+   "consistent": false,
+   "ler_20260828": 0.0414,
+   "ler_20260906": 0.0333,
+   "z": 3.0212703913402477
+  },
+  {
+   "abs_diff": 0.010800000000000032,
+   "arm": "w3",
+   "basis": "Z",
+   "code": "REP5",
+   "consistent": false,
+   "ler_20260828": 0.959,
+   "ler_20260906": 0.9698,
+   "z": 4.123249998455533
+  }
+ ],
+ "verdicts": [
+  {
+   "arm": "w1",
+   "basis": "Z",
+   "code": "REP3",
+   "device": "A",
+   "ler_arm": 0.0102,
+   "ler_base": 0.0002,
+   "margin": -0.005000000000000001,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w2",
+   "basis": "Z",
+   "code": "REP3",
+   "device": "A",
+   "ler_arm": 0.8975,
+   "rule": "LFR_arm >= 0.85",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "w1",
+   "basis": "X",
+   "code": "REP3",
+   "device": "A",
+   "ler_arm": 0.0202,
+   "ler_base": 0.0007,
+   "margin": -0.014499999999999999,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w2",
+   "basis": "X",
+   "code": "REP3",
+   "device": "A",
+   "ler_arm": 0.9048,
+   "rule": "LFR_arm >= 0.85",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "w2",
+   "basis": "Z",
+   "code": "REP5",
+   "device": "A",
+   "ler_arm": 0.0333,
+   "ler_base": 0.0,
+   "margin": -0.028300000000000002,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w3",
+   "basis": "Z",
+   "code": "REP5",
+   "device": "A",
+   "ler_arm": 0.9698,
+   "rule": "LFR_arm >= 0.9",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "p0.01",
+   "basis": "Z",
+   "binom_tail": 9.850600000000002e-06,
+   "ci": [
+    5.4847779209068104e-05,
+    0.0007290110935663664
+   ],
+   "code": "REP5",
+   "composed_bound": 0.005069725086578313,
+   "d0_hi": 0.00038401247776654115,
+   "device": "A",
+   "failures": 2,
+   "lambda_N": 0.2216796875,
+   "ler": 0.0002,
+   "naive_bound": 0.002393863077766541,
+   "rule": "naive + composed (formulas pinned)",
+   "shots": 10000,
+   "type": "stochastic",
+   "verdict": "BOTH HOLD"
+  },
+  {
+   "arm": "p0.05",
+   "basis": "Z",
+   "binom_tail": 0.0011581250000000003,
+   "ci": [
+    0.00033912200289172947,
+    0.0014443528574059384
+   ],
+   "code": "REP5",
+   "composed_bound": 0.013316579159812564,
+   "d0_hi": 0.00038401247776654115,
+   "device": "A",
+   "failures": 7,
+   "lambda_N": 0.2216796875,
+   "ler": 0.0007,
+   "naive_bound": 0.0035421374777665415,
+   "rule": "naive + composed (formulas pinned)",
+   "shots": 10000,
+   "type": "stochastic",
+   "verdict": "BOTH HOLD"
+  },
+  {
+   "arm": "p0.1",
+   "basis": "Z",
+   "binom_tail": 0.008560000000000002,
+   "ci": [
+    0.017621224148526606,
+    0.023147274225138167
+   ],
+   "code": "REP5",
+   "composed_bound": 0.03331001340091642,
+   "d0_hi": 0.00038401247776654115,
+   "device": "A",
+   "failures": 202,
+   "lambda_N": 0.2216796875,
+   "ler": 0.0202,
+   "naive_bound": 0.010944012477766543,
+   "rule": "naive + composed (formulas pinned)",
+   "shots": 10000,
+   "type": "stochastic",
+   "verdict": "NAIVE FALSIFIED, COMPOSED HOLDS"
+  },
+  {
+   "arm": "w2",
+   "basis": "X",
+   "code": "REP5",
+   "device": "A",
+   "ler_arm": 0.0436,
+   "ler_base": 0.0001,
+   "margin": -0.0385,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w3",
+   "basis": "X",
+   "code": "REP5",
+   "device": "A",
+   "ler_arm": 0.9743,
+   "rule": "LFR_arm >= 0.9",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "p0.01",
+   "basis": "X",
+   "binom_tail": 9.850600000000002e-06,
+   "ci": [
+    0.0,
+    0.00038401247776654115
+   ],
+   "code": "REP5",
+   "composed_bound": 0.005251996064555903,
+   "d0_hi": 0.0005662834557441313,
+   "device": "A",
+   "failures": 0,
+   "lambda_N": 0.2216796875,
+   "ler": 0.0,
+   "naive_bound": 0.0025761340557441314,
+   "rule": "naive + composed (formulas pinned)",
+   "shots": 10000,
+   "type": "stochastic",
+   "verdict": "BOTH HOLD"
+  },
+  {
+   "arm": "p0.05",
+   "basis": "X",
+   "binom_tail": 0.0011581250000000003,
+   "ci": [
+    0.0005432800768105723,
+    0.0018399643760004356
+   ],
+   "code": "REP5",
+   "composed_bound": 0.013498850137790154,
+   "d0_hi": 0.0005662834557441313,
+   "device": "A",
+   "failures": 10,
+   "lambda_N": 0.2216796875,
+   "ler": 0.001,
+   "naive_bound": 0.003724408455744132,
+   "rule": "naive + composed (formulas pinned)",
+   "shots": 10000,
+   "type": "stochastic",
+   "verdict": "BOTH HOLD"
+  },
+  {
+   "arm": "p0.1",
+   "basis": "X",
+   "binom_tail": 0.008560000000000002,
+   "ci": [
+    0.03661865611361393,
+    0.044334404958444616
+   ],
+   "code": "REP5",
+   "composed_bound": 0.03349228437889401,
+   "d0_hi": 0.0005662834557441313,
+   "device": "A",
+   "failures": 403,
+   "lambda_N": 0.2216796875,
+   "ler": 0.0403,
+   "naive_bound": 0.011126283455744132,
+   "rule": "naive + composed (formulas pinned)",
+   "shots": 10000,
+   "type": "stochastic",
+   "verdict": "COMPOSED VIOLATED"
+  },
+  {
+   "arm": "w3",
+   "basis": "Z",
+   "code": "REP7",
+   "device": "A",
+   "ler_arm": 0.0568,
+   "ler_base": 0.0,
+   "margin": -0.051800000000000006,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w4",
+   "basis": "Z",
+   "code": "REP7",
+   "device": "A",
+   "ler_arm": 0.9691,
+   "rule": "LFR_arm >= 0.9",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "w3",
+   "basis": "X",
+   "code": "REP7",
+   "device": "A",
+   "ler_arm": 0.0675,
+   "ler_base": 0.0001,
+   "margin": -0.062400000000000004,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w4",
+   "basis": "X",
+   "code": "REP7",
+   "device": "A",
+   "ler_arm": 0.9599,
+   "rule": "LFR_arm >= 0.9",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "w2",
+   "basis": "Z",
+   "code": "REP5",
+   "device": "B",
+   "ler_arm": 0.0484,
+   "ler_base": 0.0001,
+   "margin": -0.0433,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w3",
+   "basis": "Z",
+   "code": "REP5",
+   "device": "B",
+   "ler_arm": 0.9768,
+   "rule": "LFR_arm >= 0.9",
+   "type": "sharp",
+   "verdict": "SHARP"
+  },
+  {
+   "arm": "w2",
+   "basis": "X",
+   "code": "REP5",
+   "device": "B",
+   "ler_arm": 0.0683,
+   "ler_base": 0.0006,
+   "margin": -0.0627,
+   "rule": "LFR_arm <= LFR_base + 0.005",
+   "type": "bound",
+   "verdict": "BOUND VIOLATED"
+  },
+  {
+   "arm": "w3",
+   "basis": "X",
+   "code": "REP5",
+   "device": "B",
+   "ler_arm": 0.9745,
+   "rule": "LFR_arm >= 0.9",
+   "type": "sharp",
+   "verdict": "SHARP"
+  }
+ ],
+ "theorem_level_scoring": [
+  {
+   "device": "A",
+   "code": "REP3",
+   "basis": "Z",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0002,
+   "bound_pi": 0.0036237295766110567,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP3",
+   "basis": "Z",
+   "arm": "w1",
+   "W": 1,
+   "ler": 0.0102,
+   "bound_pi": 0.08391533026841724,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP3",
+   "basis": "X",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0007,
+   "bound_pi": 0.0036237295766110567,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP3",
+   "basis": "X",
+   "arm": "w1",
+   "W": 1,
+   "ler": 0.0202,
+   "bound_pi": 0.08391533026841724,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "Z",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0,
+   "bound_pi": 0.0015389547438120488,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "Z",
+   "arm": "w2",
+   "W": 2,
+   "ler": 0.0333,
+   "bound_pi": 0.19882805137131787,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "X",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0001,
+   "bound_pi": 0.0015389547438120488,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "X",
+   "arm": "w2",
+   "W": 2,
+   "ler": 0.0436,
+   "bound_pi": 0.19882805137131787,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP7",
+   "basis": "Z",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0,
+   "bound_pi": 0.0004568391863875032,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP7",
+   "basis": "Z",
+   "arm": "w3",
+   "W": 3,
+   "ler": 0.0568,
+   "bound_pi": 0.2929682368975234,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP7",
+   "basis": "X",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0001,
+   "bound_pi": 0.0004568391863875032,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "A",
+   "code": "REP7",
+   "basis": "X",
+   "arm": "w3",
+   "W": 3,
+   "ler": 0.0675,
+   "bound_pi": 0.2929682368975234,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "B",
+   "code": "REP5",
+   "basis": "Z",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0001,
+   "bound_pi": 0.011066240930013516,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "B",
+   "code": "REP5",
+   "basis": "Z",
+   "arm": "w2",
+   "W": 2,
+   "ler": 0.0484,
+   "bound_pi": 0.3642061220057956,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "B",
+   "code": "REP5",
+   "basis": "X",
+   "arm": "base",
+   "W": 0,
+   "ler": 0.0006,
+   "bound_pi": 0.011066240930013516,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  },
+  {
+   "device": "B",
+   "code": "REP5",
+   "basis": "X",
+   "arm": "w2",
+   "W": 2,
+   "ler": 0.0683,
+   "bound_pi": 0.3642061220057956,
+   "verdict": "HOLDS",
+   "note": "Theorem 3(c): LER <= pi(t+1-W), pinned calibration pi"
+  }
+ ],
+ "stochastic_mask_conditional": [
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "X",
+   "p": 0.01,
+   "ler": 0.0,
+   "bound_mask_conditional": 0.00410523819955618,
+   "mask_weight_counts": {
+    "0": 50
+   },
+   "verdict": "HOLDS",
+   "note": "composed bound conditioned on realized pinned masks + d0_hi + TOL_STOCH"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "X",
+   "p": 0.05,
+   "ler": 0.001,
+   "bound_mask_conditional": 0.015933911949003114,
+   "mask_weight_counts": {
+    "1": 10,
+    "0": 38,
+    "2": 2
+   },
+   "verdict": "HOLDS",
+   "note": "composed bound conditioned on realized pinned masks + d0_hi + TOL_STOCH"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "X",
+   "p": 0.1,
+   "ler": 0.0403,
+   "bound_mask_conditional": 0.06651989454339353,
+   "mask_weight_counts": {
+    "0": 27,
+    "1": 17,
+    "2": 4,
+    "3": 2
+   },
+   "verdict": "HOLDS",
+   "note": "composed bound conditioned on realized pinned masks + d0_hi + TOL_STOCH"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "Z",
+   "p": 0.01,
+   "ler": 0.0002,
+   "bound_mask_conditional": 0.0047103891984479306,
+   "mask_weight_counts": {
+    "0": 48,
+    "1": 2
+   },
+   "verdict": "HOLDS",
+   "note": "composed bound conditioned on realized pinned masks + d0_hi + TOL_STOCH"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "Z",
+   "p": 0.05,
+   "ler": 0.0007,
+   "bound_mask_conditional": 0.011018437061606068,
+   "mask_weight_counts": {
+    "0": 41,
+    "1": 8,
+    "2": 1
+   },
+   "verdict": "HOLDS",
+   "note": "composed bound conditioned on realized pinned masks + d0_hi + TOL_STOCH"
+  },
+  {
+   "device": "A",
+   "code": "REP5",
+   "basis": "Z",
+   "p": 0.1,
+   "ler": 0.0202,
+   "bound_mask_conditional": 0.04754953562559622,
+   "mask_weight_counts": {
+    "0": 25,
+    "1": 20,
+    "2": 4,
+    "3": 1
+   },
+   "verdict": "HOLDS",
+   "note": "composed bound conditioned on realized pinned masks + d0_hi + TOL_STOCH"
+  }
+ ],
+ "scoring_note": "Deterministic arms: theorem-level pi-bound is primary (manuscript tab:injdet convention); the pinned naive proxy LER_arm<=LER_base+0.005 is the amplification quantifier and is expected to be exceeded by weight-t arms (as in campaign 1).",
+ "summary": {
+  "bounded_arms_holds": 16,
+  "bounded_arms_total": 16,
+  "sharp_arms_sharp": 8,
+  "sharp_arms_total": 8,
+  "stoch_naive_falsified_p010": [
+   "Z",
+   "X"
+  ],
+  "stoch_composed_mask_conditional_holds": 6,
+  "stoch_composed_mask_conditional_total": 6,
+  "qualitative_verdicts_reproduced_vs_20260828": "12/12",
+  "second_device": "ibm_fez REP5 qualitative pattern reproduced"
+ }
+}

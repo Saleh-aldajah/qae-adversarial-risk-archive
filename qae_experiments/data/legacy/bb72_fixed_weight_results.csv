@@ -1,0 +1,10 @@
+experiment,code,weight,trials,z_success_rate,x_success_rate,joint_success_rate,theorem_certified
+fixed_weight_code_capacity,BB72,0,500,1.0,1.0,1.0,1
+fixed_weight_code_capacity,BB72,1,500,1.0,1.0,1.0,1
+fixed_weight_code_capacity,BB72,2,500,1.0,1.0,1.0,1
+fixed_weight_code_capacity,BB72,3,500,0.0,0.0,0.0,0
+fixed_weight_code_capacity,BB72,4,500,0.0,0.006,0.0,0
+fixed_weight_code_capacity,BB72,5,500,0.0,0.0,0.0,0
+fixed_weight_code_capacity,BB72,6,500,0.0,0.0,0.0,0
+fixed_weight_code_capacity,BB72,7,500,0.0,0.0,0.0,0
+fixed_weight_code_capacity,BB72,8,500,0.0,0.0,0.0,0

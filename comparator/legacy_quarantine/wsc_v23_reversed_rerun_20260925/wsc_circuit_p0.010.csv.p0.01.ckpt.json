@@ -1,0 +1,1 @@
+{"shots": 20000, "rounds": 4, "done_t": 14000, "fails": {"BP+OSD": 13540, "Relay-BP": 13383, "MWPM-chain": 13996, "MWPM-stim": 14000, "BeliefMatch": 13997}, "nomatch": {"BP+OSD": 0, "Relay-BP": 0, "MWPM-chain": 0, "MWPM-stim": 14000, "BeliefMatch": 0}}

@@ -1,0 +1,16 @@
+code,p,rounds,trials,failures,lfr,cs_lo,cs_hi,method,stop_rule,source_file
+bb72,0.004,6,20000,16,0.0008,0.000193401,0.0021011,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb72_v24.csv
+bb72,0.006,6,20000,60,0.003,0.00158884,0.00506682,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb72_v24.csv
+bb72,0.008,6,10000,62,0.0062,0.00340751,0.0102027,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb72_v24.csv
+bb72,0.012,6,4000,84,0.021,0.0131008,0.0314982,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb72_v24.csv
+bb144,0.004,12,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb144_v24.csv
+bb144,0.006,12,20000,1,5e-05,1.24994e-10,0.000782201,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb144_v24.csv
+bb144,0.008,12,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb144_v24.csv
+bb144,0.012,12,20000,4,0.0002,4.50098e-06,0.00110472,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb144_v24.csv
+bb288,0.004,18,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb288_v24.csv
+bb288,0.006,18,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb288_v24.csv
+bb288,0.008,18,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb288_v24.csv
+bb288,0.012,18,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_bb288_v24.csv
+bb72,0.01,6,4000,64,0.016,0.00920395,0.025463,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_p010_bb72_v24.csv
+bb144,0.01,12,20000,2,0.0001,1.11929e-07,0.000898905,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_p010_bb144_v24.csv
+bb288,0.01,18,20000,0,0.0,0,0.000644756,"Robbins mixture CS (time-uniform), alpha=0.05",>=50 failures or 20000 trials (pinned),repeated_cycle_adaptive_p010_bb288_v24.csv

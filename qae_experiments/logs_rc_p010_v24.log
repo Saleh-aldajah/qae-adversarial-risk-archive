@@ -1,0 +1,49 @@
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+decoders OK — ldpc 2.4.1, pymatching 2.4.0
+  bb72 p=0.01 batch 0: +27 fails (total 27/2000)  (3s)
+  bb72 p=0.01 batch 1: +37 fails (total 64/4000)  (6s)
+DONE bb72 p=0.01: 64/4000 [0.01255,0.02038] stop=>=50 failures (6s)
+Saved repeated_cycle_adaptive_p010_bb72_v24.csv  (1 rows)
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+decoders OK — ldpc 2.4.1, pymatching 2.4.0
+  bb144 p=0.01 batch 0: +0 fails (total 0/2000)  (14s)
+  bb144 p=0.01 batch 1: +0 fails (total 0/4000)  (29s)
+  bb144 p=0.01 batch 2: +0 fails (total 0/6000)  (43s)
+  bb144 p=0.01 batch 3: +0 fails (total 0/8000)  (58s)
+  bb144 p=0.01 batch 4: +0 fails (total 0/10000)  (72s)
+  bb144 p=0.01 batch 5: +1 fails (total 1/12000)  (87s)
+  bb144 p=0.01 batch 6: +1 fails (total 2/14000)  (101s)
+  bb144 p=0.01 batch 7: +0 fails (total 2/16000)  (116s)
+  bb144 p=0.01 batch 8: +0 fails (total 2/18000)  (130s)
+  bb144 p=0.01 batch 9: +0 fails (total 2/20000)  (144s)
+DONE bb144 p=0.01: 2/20000 [0.00003,0.00036] stop=budget 20000 (144s)
+Saved repeated_cycle_adaptive_p010_bb144_v24.csv  (1 rows)
+BB72: n=72 k=12 rx=30 rz=30 commutation=PASS
+  HX sha256: 7ab0973bfd02e399d69728d26e67dbfa...
+  HZ sha256: 267f345c09710ec0cfad1e49e0786b26...
+BB144: n=144 k=12 rx=66 rz=66 commutation=PASS
+  HX sha256: 195d5586a406f0194b89649b6a2499ec...
+  HZ sha256: 72dc3b9cefec7d45c99325c8f8d07871...
+decoders OK — ldpc 2.4.1, pymatching 2.4.0
+  bb288 p=0.01 batch 0: +0 fails (total 0/2000)  (151s)
+  bb288 p=0.01 batch 1: +0 fails (total 0/4000)  (298s)
+  bb288 p=0.01 batch 2: +0 fails (total 0/6000)  (443s)
+  bb288 p=0.01 batch 3: +0 fails (total 0/8000)  (595s)
+  bb288 p=0.01 batch 4: +0 fails (total 0/10000)  (735s)
+  bb288 p=0.01 batch 5: +0 fails (total 0/12000)  (878s)
+  bb288 p=0.01 batch 6: +0 fails (total 0/14000)  (1021s)
+  bb288 p=0.01 batch 7: +0 fails (total 0/16000)  (1163s)
+  bb288 p=0.01 batch 8: +0 fails (total 0/18000)  (1310s)
+  bb288 p=0.01 batch 9: +0 fails (total 0/20000)  (1459s)
+DONE bb288 p=0.01: 0/20000 [0.00000,0.00019] stop=budget 20000 (1459s)
+Saved repeated_cycle_adaptive_p010_bb288_v24.csv  (1 rows)

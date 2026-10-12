@@ -1,0 +1,7 @@
+condition,p_base,trials,failures,lfr,ci_lo,ci_hi,seed,p_prep_ratio,p_meas_ratio,p_idle_ratio,note
+circuit: full model,0.0005,3000,248,0.082667,0.073338,0.093063,2652621432,1.0,1.0,0.05,P1-11 reset-sensitivity; simulation-model only
+circuit: no reset noise,0.0005,3000,191,0.063667,0.055475,0.072974,4174924454,0.0,1.0,0.05,P1-11 reset-sensitivity; simulation-model only
+circuit: reset x2,0.0005,3000,323,0.107667,0.097072,0.119264,1501774620,2.0,1.0,0.05,P1-11 reset-sensitivity; simulation-model only
+circuit: no readout,0.0005,3000,288,0.096,0.085969,0.107064,262165354,1.0,0.0,0.05,P1-11 reset-sensitivity; simulation-model only
+circuit: reset-only syn,0.0005,3000,270,0.09,0.080277,0.100772,2370748268,1.0,0.0,0.0,P1-11 reset-sensitivity; simulation-model only
+circuit: readout-only syn,0.0005,3000,201,0.067,0.058595,0.076512,1824693175,0.0,1.0,0.0,P1-11 reset-sensitivity; simulation-model only

@@ -1,0 +1,52 @@
+{
+ "X": {
+  "uncorrectable": 24,
+  "qubits": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   13,
+   14,
+   15,
+   16,
+   17,
+   36,
+   37,
+   38,
+   41,
+   43,
+   44,
+   46,
+   48,
+   49,
+   50,
+   53
+  ]
+ },
+ "Z": {
+  "uncorrectable": 15,
+  "qubits": [
+   0,
+   3,
+   4,
+   7,
+   12,
+   13,
+   36,
+   38,
+   39,
+   40,
+   41,
+   43,
+   44,
+   45,
+   46
+  ]
+ },
+ "note": "v23 text reported 48/72 (X) and 57/72 (Z); reviewer diagnostic reported 24 and 15. This run uses the archived comparator face and grid endpoint."
+}

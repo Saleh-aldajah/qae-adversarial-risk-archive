@@ -1,0 +1,270 @@
+% theory_injection_game.tex — standalone-compilable formalization fragment (v18 candidate).
+% To be integrated into main_v18.tex as a restructured ACE section after
+% the IBM injection campaign lands (predictions pinned in
+% theory_test/predictions/predictions_*.json BEFORE hardware submission).
+\documentclass[10pt,twocolumn]{revtex4-2}
+\usepackage{amsmath,amssymb,amsthm,booktabs,enumitem,float}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{remark}{Remark}
+\begin{document}
+
+\title{The injection-budget game: an operational and device-testable\\
+form of the ACE bound (v18 theory fragment)}
+\author{[AUTHORS]}
+\date{August 29, 2026}
+\maketitle
+
+\section{Operational definitions}
+
+\begin{definition}[Spacetime fault; weight]\label{def:fault}
+For a quantum memory experiment with $n_d$ data qubits and $R$ syndrome
+rounds, a \emph{spacetime fault set} $F$ is a set of elementary faults:
+(i)~a Pauli operator applied to one data qubit at one inter-round
+location; (ii)~one faulty syndrome (ancilla) measurement outcome. The
+\emph{weight} $|F|$ counts elementary faults. A fault set is
+\emph{adversarially placed} if its support is chosen arbitrarily in space
+and time.
+\end{definition}
+
+\begin{definition}[Injection-budget adversary $\mathfrak{A}_1^{\mathrm{st}}(W)$]
+\label{def:adversary}
+The adversary selects any fault set $F$ of injected data-qubit Pauli
+faults with $|F|\le W$, with full knowledge of the code, the schedule,
+and the decoder, \emph{without} access to syndrome outcomes before
+selection (non-adaptive) and without any influence on native hardware
+noise $N$ or on the decoding procedure. The native noise contributes an
+independent fault set $N$ drawn from the device distribution
+$\mathcal{P}_{\mathrm{dev}}$.
+\end{definition}
+
+\begin{definition}[Operational ACE value]\label{def:acevalue}
+For implemented memory $\mathcal{M}$ (code $+$ schedule $+$ decoder),
+\[
+\lambda_{\mathcal{M}}(W)\;:=\;\max_{F:\,|F|\le W}\;
+\Pr_{N\sim\mathcal{P}_{\mathrm{dev}}}\!\big[\text{logical failure}\mid F,N\big],
+\qquad V_{\mathcal{M}}(W):=1-\lambda_{\mathcal{M}}(W).
+\]
+$\lambda_{\mathcal{M}}(W)$ is directly measurable: inject $F$ on the
+device, decode, count logical failures.
+\end{definition}
+
+\section{The spacetime-budget theorem}
+
+\begin{theorem}[Bounded-weight correctability and sharpness]\label{thm:spacetime}
+Let $\mathcal{M}$ be the distance-$d$ ($d$ odd) repetition memory with
+$R\ge 1$ rounds, decoded by minimum-weight matching on the spacetime
+detector graph, and let $t=\lfloor(d-1)/2\rfloor$.
+\begin{enumerate}[label=(\alph*),leftmargin=1.6em]
+\item \emph{Ideal extraction.} If $N=\varnothing$, then
+$\lambda_{\mathcal{M}}(W)=0$ for all $W\le t$: every adversarially
+placed injection of weight at most $t$ is corrected.
+\item \emph{Sharpness.} There exists an explicitly constructible
+injection $F$ with $|F|=t+1$ such that minimum-weight matching fails
+with probability one: $\lambda_{\mathcal{M}}(t+1)=1$ already at
+$N=\varnothing$.
+\item \emph{Composed, testable bound.} For arbitrary native noise,
+\[
+\lambda_{\mathcal{M}}(W)\;\le\;\Pr_{N}\!\big[\,|N|\ge (t+1)-W\,\big]
+\qquad(0\le W\le t),
+\]
+and in particular
+$\lambda_{\mathcal{M}}(0)=\Pr[|N|\ge t+1]$ is the baseline logical
+failure rate and $\lambda_{\mathcal{M}}(t)\le\Pr[|N|\ge 1]$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(a)~In the spacetime detector graph of the repetition memory, elementary
+faults are edges: data faults are spatial edges (connecting
+neighbouring-space detectors in one round, or one detector to a spatial
+boundary) and measurement faults are temporal edges (same detector,
+consecutive rounds). Any logical operator chain must connect the two
+spatial boundaries and therefore contains at least $d$ spatial edges;
+temporal edges do not advance the spatial coordinate, so every logical
+chain has weight $\ge d$. A fault set $F$ flips the set of detectors at
+the boundary of its chain; the decoder returns a minimum-weight chain
+$C$ with the same boundary, $|C|\le|F|$. Failure requires $F\oplus C$
+to contain a logical chain, hence
+$|F|+|C|\ge|F\oplus C|\ge d$, so $2|F|\ge d$, i.e.\
+$|F|\ge t+1$. Contrapositive: $|F|\le t$ implies success.
+(b)~Take $X$ on $t{+}1$ consecutive data qubits centred in the line,
+injected in one round. The syndrome has two detectors separated by a
+path of weight $t{+}1$ through the injected string, while the two
+boundary paths have total weight $d-(t{+}1)=t$. Minimum-weight matching
+chooses the boundary completion of weight $t$, and $F\oplus C$ is the
+full logical string; failure is certain. (c)~With $E=N\cup F$ the same
+chain argument gives failure $\Rightarrow |N|+|F|\ge t+1$, hence
+$|N|\ge t+1-W$; take probabilities.
+\end{proof}
+
+\begin{remark}[Scope]
+Theorem~\ref{thm:spacetime} is stated for repetition memories, whose
+spacetime graph is a chain; the proof uses only the chain complex and
+minimum-weight decoding, so (a) extends to any CSS memory whose
+spacetime distance is $d$ under the same decoder class. For BB72 the
+analogous single-round statement at $W\le t=2$ is established
+\emph{exhaustively} by the finite-instance certificate
+(Sec.~Certificate of the main text): every weight-$\le2$ Pauli pattern
+is corrected. We therefore regard the repetition-code theorem as the
+proved spine and BB72 as the certificate-supported high-rate instance;
+a general spacetime-distance proof for BB memories is future work.
+\end{remark}
+
+\section{A measurable bridge for the diamond-norm gap}
+
+\begin{proposition}[Pauli-channel diamond bridge]\label{prop:bridge}
+Let $\Lambda$ be a Pauli channel on one logical qubit with distribution
+$\{p_P\}_{P\in\{I,X,Y,Z\}}$. Then
+$\tfrac12\|\Lambda-\mathrm{id}\|_\diamond = 1-p_I$.
+Consequently, if the effective logical channel of the implemented
+memory is Pauli (e.g.\ after Pauli twirling of the recovery), the
+logical diamond-norm error satisfies
+\[
+\varepsilon_{\mathrm{FT}}^{\mathrm{logical}}
+= 2\bigl(1-p_I\bigr)
+\le 2\max_{\beta\in\{X,Z\}}\mathrm{LFR}_{\beta},
+\]
+where $\mathrm{LFR}_\beta$ is the logical failure rate of the
+$\beta$-basis memory experiment.
+\end{proposition}
+\begin{proof}
+Pauli channels are covariant; their diamond norm is attained on a
+maximally entangled input and equals the $\ell_1$ norm of the
+difference of the Pauli distributions (Watrous, \emph{Theory of Quantum
+Information}, semidefinite-program characterization of the diamond norm
+for Pauli channels). For $\Lambda$ versus $\mathrm{id}$:
+$\sum_P|p_P-\delta_{P,I}|=(1-p_I)+(1-p_I)=2(1-p_I)$. Under the Pauli
+assumption, $1-p_I$ is the total logical Pauli probability, bounded by
+the worse of the two basis experiments.
+\end{proof}
+
+\begin{remark}[What this buys]
+Proposition~\ref{prop:bridge} upgrades the decoder-dependent ACE gap
+(Remark on decoder dependence in the main text) from an LFR
+\emph{proxy} to a \emph{bound}: under the Pauli approximation for the
+logical channel, $\varepsilon_{\mathrm{FT}}^{\mathrm{logical}}\le
+2\,\mathrm{LFR}_{\max}$. The twirling residual (coherent,
+non-Pauli components of the logical noise) is not captured and is
+stated as a limitation; it can be probed by randomized benchmarking
+style experiments, which we leave to future work.
+\end{remark}
+
+\section{Stochastic adversary: the device-aware bound}
+
+\begin{corollary}[Device-aware stochastic-injection bound]\label{cor:stoch}
+Let the adversary inject i.i.d.\ Pauli faults independently on each of
+$d$ data qubits with probability $p$ in a single round, on an
+implemented memory whose native fault-count distribution is
+$\pi(k):=\Pr[|N|\ge k]$ (with $\pi(k)=1$ for $k\le0$). Then, by
+Theorem~\ref{thm:spacetime}(c) and the law of total probability,
+\[
+\lambda(p)\;\le\;\sum_{w=0}^{d}\Pr\bigl[\mathrm{Bin}(d,p)=w\bigr]\,
+\pi\bigl((t{+}1)-w\bigr).
+\]
+\end{corollary}
+
+\begin{remark}[The naive bound is false on real devices]\label{rem:naive}
+The independence form
+$\lambda(p)\le\delta_0+\Pr[\mathrm{Bin}(d,p)\ge t{+}1]$
+(equivalently the i.i.d.\ lower bound of the v17 ACE section with
+$n{=}d$) assumes that a weight-$\le t$ injection leaves the failure
+probability at its baseline $\delta_0$. Theorem~\ref{thm:spacetime}(c)
+shows this is wrong whenever $\pi(1)>0$: an injection of weight $w$
+\emph{amplifies} native noise, requiring only $t{+}1{-}w$ assisting
+native faults. Our pre-registered campaign (below) falsified the naive
+form at $p=0.10$ by $2.1$--$3.8\times$ on both sectors while the
+device-aware form of Corollary~\ref{cor:stoch} held on every arm.
+The correction is not cosmetic: at device-relevant parameters the
+amplification term $\Pr[\mathrm{Bin}=t]\cdot\pi(1)$ dominates the
+naive tail by an order of magnitude.
+\end{remark}
+
+\section{Pre-registered device test (ibm\_marrakesh, 2026-08-28)}
+
+Predictions, decision rules, seeds, layouts, and circuit digests were
+pinned (SHA-256 \texttt{759169c2\dots c74653cd5}) before submission;
+180{,}000 shots over 312 circuit arms in four Sampler jobs
+(\texttt{da8um21qtnsc73d0v3ug}, \texttt{da8um2ce74ec73aj4n3g},
+\texttt{da8um31qtnsc73d0v400}, \texttt{da8um3ke74ec73aj4n50}).
+REP5 ($d{=}5$, $t{=}2$) and REP3 ($d{=}3$, $t{=}1$), both sectors,
+$R{=}4$ rounds, injection at round 2; $\pi(k)$ estimated from the
+calibration-snapshot fault model ($\lambda_N=0.47$ faults/shot for
+REP5, $0.25$ for REP3: $\pi(1){=}0.375$, $\pi(2){=}0.081$,
+$\pi(3){=}0.012$; REP3: $0.221$, $0.027$, $0.002$).
+
+\begin{table}[H]\centering\small
+\caption{Deterministic worst-case arms (10{,}000 shots each).
+``Bound'' is Theorem~\ref{thm:spacetime}(c) with calibration
+$\pi$.}\label{tab:injdet}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+arm & sector & failures & LER & bound & verdict \\\midrule
+REP5 base & Z & 0 & 0.0000 & 0.012 & holds \\
+REP5 base & X & 2 & 0.0002 & 0.012 & holds \\
+REP5 $w{=}2$ (worst) & Z & 414 & 0.0414 & 0.375 & holds \\
+REP5 $w{=}2$ (worst) & X & 506 & 0.0506 & 0.375 & holds \\
+REP5 $w{=}3$ (worst) & Z & 9590 & 0.9590 & --- & sharp \\
+REP5 $w{=}3$ (worst) & X & 9598 & 0.9598 & --- & sharp \\
+REP3 base & Z & 14 & 0.0014 & 0.027 & holds \\
+REP3 base & X & 28 & 0.0028 & 0.027 & holds \\
+REP3 $w{=}1$ (worst) & Z & 276 & 0.0276 & 0.221 & holds \\
+REP3 $w{=}1$ (worst) & X & 318 & 0.0318 & 0.221 & holds \\
+REP3 $w{=}2$ (worst) & Z & 9292 & 0.9292 & --- & sharp \\
+REP3 $w{=}2$ (worst) & X & 9240 & 0.9240 & --- & sharp \\\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]\centering\small
+\caption{Stochastic arms, REP5 (50 pinned variants $\times$ 200 shots per
+$(p,\text{sector})$). Naive = $\delta_0+\Pr[\mathrm{Bin}\ge3]+0.002$;
+composed = Corollary~\ref{cor:stoch} with calibration
+$\pi$.}\label{tab:injstoch}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+$p$ & sector & failures & LER & naive & composed \\\midrule
+0.01 & Z & 1 & 0.0001 & 0.0020 & 0.016 \\
+0.01 & X & 2 & 0.0002 & 0.0020 & 0.016 \\
+0.05 & Z & 6 & 0.0006 & 0.0031 & 0.035 \\
+0.05 & X & 9 & 0.0009 & 0.0031 & 0.035 \\
+0.10 & Z & 211 & 0.0211 & 0.0101 & 0.070 \\
+0.10 & X & 388 & 0.0388 & 0.0101 & 0.070 \\\bottomrule
+\end{tabular}
+\end{table}
+
+Findings. (i)~\emph{The distance cliff is real and sharp:} weight-$t$
+worst-case injections stay correctable-bounded on both distances and
+both sectors; weight-$(t{+}1)$ injections collapse the memory at
+$92.4$--$96.0\%$ logical failure (the shortfall from $100\%$ is
+native-noise rescue, order $\pi(1)$, consistent with the fault model).
+(ii)~\emph{Injection amplifies native noise exactly as the chain
+argument predicts:} REP5 $w{=}2$ arms sit $100$--$250\times$ above
+baseline but an order of magnitude inside the composed bound.
+(iii)~\emph{The naive stochastic bound is falsified} at $p{=}0.10$
+($0.0211$ and $0.0388$ measured vs $0.0101$ allowed), while the
+device-aware composed bound holds on all six stochastic arms. The
+hardware data thus selects Corollary~\ref{cor:stoch} over the
+independence form --- a theory refinement driven by device data.
+
+\section{Threat model and the monitoring corollary}
+
+\begin{definition}[Memory-integrity security notion]
+The adversary wins if a logical Pauli error is applied to the stored
+state without detection. Security parameter: $\lambda_{\mathcal{M}}(W)$
+under $\mathfrak{A}_1^{\mathrm{st}}(W)$; a memory is
+\emph{$(W,\eta)$-integrity-secure} if $\lambda_{\mathcal{M}}(W)\le\eta$.
+\end{definition}
+
+\begin{corollary}[Syndrome monitoring is insufficient]\label{cor:monitor}
+The REP5 active-provenance dissociation (main text, Appendix~A) shows
+that layout changes move the \emph{detection rate} while leaving the
+\emph{logical} rate statistically unchanged. Hence the detection rate
+is not a faithful witness of logical integrity: a memory can be
+certified $(W,\eta)$-secure only by logical-level tests (e.g.\
+injection probing per Theorem~\ref{thm:spacetime}), not by syndrome
+statistics alone.
+\end{corollary}
+
+\end{document}

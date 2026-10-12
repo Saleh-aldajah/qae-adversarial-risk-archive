@@ -1,0 +1,19 @@
+{
+ "created_utc": "2026-08-28T12:29:16.147175+00:00",
+ "experiment": "comparator_grid",
+ "code": "BB72 gross (archive matrices, sha256 in CSV rows)",
+ "protocol": "7 decoders x 7 p x 10000 paired trials; identical error instances across decoders (seed=stable_seed(\"COMPARE\",\"BB72\",p)); fail = either sector logical-fails",
+ "canonical_csv": "comparator_grid_final.csv",
+ "assembly_note": "Original pool.map run suffered a chunk-1 tail pathology (3 slowest sym_simplex tasks sequential on one worker) and was later lost to a sandbox suspension before writing its CSV. The canonical CSV was reconstructed from the 49 per-task failbits .npy files (deterministic content: pinned seeds, deterministic decoders), with per-task sec merged from comparator_timing.csv (clean single-process probe, 100-2000 trials/point). Failbit provenance: 46/49 from the original pool (venv-symatch, root), sym_simplex p=0.008 and p=0.006 completed by rescue_simplex.py (pid 8180) with bit-identical protocol.",
+ "mcnemar_csv": "comparator_mcnemar_final.csv",
+ "timing_csv": "comparator_timing.csv",
+ "equivalence_certificate": "../active_provenance/results/bb72_symatch_equiv_cert.json",
+ "figures": [
+  "../figures/cmp_f1_grid_final.pdf",
+  "../figures/cmp_f2_kunlun.pdf"
+ ],
+ "comparator_grid_final.csv_sha256": "d687c069cdb789f967ed67d9adcc2f6ccf2e38e9833a6dcf1dc69fe0dbd0b05e",
+ "comparator_mcnemar_assembled.csv_sha256": "ac7e4ad38e01a71bc645a56865dcbdc8b6df2902bef5e688cbd0188cf5c84de4",
+ "comparator_timing.csv_sha256": "2aab9a157316371efb03fc21845cd64a7411b07e0564d0af4c87956675b94d74",
+ "kunlun_cmp.csv_sha256": "849a94b3ae235c2bd19cf759fe35ad3cddf7619267c431b41acf9191d2556438"
+}

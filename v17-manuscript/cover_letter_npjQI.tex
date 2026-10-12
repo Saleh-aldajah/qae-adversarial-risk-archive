@@ -1,0 +1,92 @@
+% Cover letter — npj Quantum Information submission (v25, repositioned package)
+% [AUTHORS]: personalize the bracketed slots before submission.
+\documentclass[11pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\signature{[AUTHORS]}
+\address{[AUTHORS: affiliation, address, email]}
+\begin{document}
+\begin{letter}{Editors, npj Quantum Information}
+\opening{Dear Editors,}
+
+We submit the enclosed manuscript, ``Certified Adversarial Risk Bounds for
+Quantum Error-Correcting Memories: Injection-Budget Certification with
+Simultaneous Intervals and Reproducible Three-Code Bivariate-Bicycle
+Benchmarks,'' for consideration in npj Quantum Information.
+
+The manuscript reframes quantum memory evaluation as a certification problem:
+for a fixed implementation and a bounded-weight fault-injection adversary, the
+operational risk $\lambda_{\mathcal{M}}(W)$ is estimated on device and reported
+as simultaneous intervals $[L_W,U_W]$ at joint $\ge 95\%$ confidence, with
+upper bounds stated honestly as $1$ wherever the weight region is not
+exhausted. Four contributions we believe clear the journal's bar:
+\begin{enumerate}[leftmargin=1.5em,itemsep=4pt]
+\item \textbf{A certification framework with simultaneous intervals and a
+   machine-checkable risk certificate.} Intervals are
+   Bonferroni-simultaneous across all 676 statistical cells with exact
+   Clopper--Pearson bounds at zero counts ($2.996/N$, not the
+   anti-conservative Wilson value), and uniform-mixture confidence sequences
+   govern the adaptive ladder. Where enumeration is complete --- the $t=2$
+   radius and the noiseless injection boundary --- the certified value is
+   exact, not a bound; where it is not, the upper bound is stated as $1$
+   with the gap printed. The per-system lower/upper envelope is shipped as a
+   single machine-checkable artifact (\texttt{risk\_certificate\_v24.csv})
+   whose every entry regenerates from the archived counts. Estimands were
+   hash-pinned before submission; where a conditioning estimand was instead
+   adopted retrospectively (campaign~1), the manuscript says so explicitly
+   in a dated chronology ledger. To our knowledge this is the first
+   QEC benchmark whose headline numbers are simultaneous intervals with an
+   explicit threat model.
+\item \textbf{An exhaustive, independently checkable code certificate.}
+   BB[[72,12,6]] is certified $d=6$ exactly (meet-in-the-middle through
+   weight~5; exhaustive weight-6 enumeration exhibiting $84+84$ nontrivial
+   logicals). The archive publishes all witnesses and ships a self-contained
+   334-line checker that re-derives every obligation from the pinned matrices,
+   so the distance claim is third-party verifiable in linear time per witness.
+\item \textbf{A reproducible three-code benchmark at pinned scales.}
+   Certification-first, bit-identical paired comparisons across BB72/BB144/BB288:
+   BP+OSD lies $67.8\times$ to $>{134{,}000}\times$ below graphified matching
+   baselines (joint $\ge95\%$); a seven-decoder grid on 70{,}000 paired
+   instances shows BP augmentation closes the gap to BP+OSD while bare symmetry
+   matching is non-viable; a five-decoder re-analysis of the released Kunlun
+   $[[18,4,4]]$ detector model confirms the graphification penalty on hardware
+   matrices; and a prior-aligned repeated-cycle ladder measures block-level
+   distance suppression ($\Lambda$ per $\Delta d{=}2$, honestly delimited
+   against per-cycle conventions).
+\item \textbf{Hash-pinned hardware injection campaigns.} On
+   ibm\_marrakesh and ibm\_fez, a pinned injection-budget protocol confirmed
+   the distance cliff ($92$--$96\%$ collapse) and the device-aware composed
+   bound on every arm, replicating across calibration cycles, devices, and
+   distance~7; calibration-informed placement lowered logical error in four of
+   four configurations ($p=0.042$). Two v23-era defects found in review --- a
+   reversed extraction convention in one circuit-level campaign and a
+   population-average estimand misapplied to pinned masks --- are disclosed in
+   the manuscript, corrected with protocol-invariance tests and a
+   fixed-mask reanalysis, and the affected claims are withdrawn or replaced.
+   A second-round review found two further defects --- an endpoint
+   classifier keyed to the observed rather than the true residual syndrome,
+   and ``pre-registered'' phrasing applied to a retrospectively adopted
+   estimand --- which are likewise corrected (regression-tested classifier,
+   regenerated tables, and a full chronology ledger) and disclosed.
+\end{enumerate}
+
+The package is provenance-anchored: the simulation and analysis figures and
+tables regenerate from the accompanying archive (SHA-256 manifests,
+deterministic seeds, recorded job IDs and QPY circuits for all hardware runs,
+an offline master reproduction script, and pinned dependency versions).
+Hardware outcomes themselves are experimental records and are re-attainable
+only by re-running the pinned protocols on device, which the archive fully
+specifies; the corrected circuit-level grid regenerates rate by rate under a
+checkpointed protocol, and the manuscript states precisely which rates are
+complete at submission.
+
+[AUTHORS: one paragraph situating the work in your group's research line;
+disclose the prior TQE submission history if required by policy; confirm the
+Nature Quantum Computing submission is fully closed and state so explicitly.]
+
+The manuscript is not under consideration elsewhere. [AUTHORS: suggested
+reviewers / opposed reviewers per journal policy.]
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}

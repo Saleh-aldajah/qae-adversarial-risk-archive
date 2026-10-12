@@ -1,0 +1,274 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[AlDaajeh(2026)]{AlDaajeh2026emulator}
+Saleh~H. AlDaajeh.
+\newblock {QEC Emulator}: Reproducible {qLDPC} benchmark suite with
+  hash-anchored provenance, 2026.
+\newblock URL \url{https://doi.org/10.5281/zenodo.20574329}.
+
+\bibitem[Shor(1997)]{Shor1997}
+Peter~W. Shor.
+\newblock Polynomial-time algorithms for prime factorization and discrete
+  logarithms on a quantum computer.
+\newblock \emph{SIAM Journal on Computing}, 26\penalty0 (5):\penalty0
+  1484--1509, 1997.
+\newblock \doi{10.1137/S0097539795293172}.
+
+\bibitem[{National Institute of Standards and
+  Technology}(2024{\natexlab{a}})]{NISTFIPS203}
+{National Institute of Standards and Technology}.
+\newblock {FIPS 203}: Module-lattice-based key-encapsulation mechanism
+  standard.
+\newblock Federal Information Processing Standards Publication 203, National
+  Institute of Standards and Technology, 2024{\natexlab{a}}.
+\newblock URL \url{https://csrc.nist.gov/pubs/fips/203/final}.
+
+\bibitem[{National Institute of Standards and
+  Technology}(2024{\natexlab{b}})]{NISTFIPS204}
+{National Institute of Standards and Technology}.
+\newblock {FIPS 204}: Module-lattice-based digital signature standard.
+\newblock Federal Information Processing Standards Publication 204, National
+  Institute of Standards and Technology, 2024{\natexlab{b}}.
+\newblock URL \url{https://csrc.nist.gov/pubs/fips/204/final}.
+
+\bibitem[{National Institute of Standards and
+  Technology}(2024{\natexlab{c}})]{NISTFIPS205}
+{National Institute of Standards and Technology}.
+\newblock {FIPS 205}: Stateless hash-based digital signature standard.
+\newblock Federal Information Processing Standards Publication 205, National
+  Institute of Standards and Technology, 2024{\natexlab{c}}.
+\newblock URL \url{https://csrc.nist.gov/pubs/fips/205/final}.
+
+\bibitem[Bravyi et~al.(2024)Bravyi, Cross, Gambetta, Maslov, Rall, and
+  Yoder]{Bravyi2024}
+Sergey Bravyi, Andrew~W. Cross, Jay~M. Gambetta, Dmitri Maslov, Patrick Rall,
+  and Theodore~J. Yoder.
+\newblock High-threshold and low-overhead fault-tolerant quantum memory.
+\newblock \emph{Nature}, 627:\penalty0 778--782, 2024.
+\newblock \doi{10.1038/s41586-024-07107-7}.
+
+\bibitem[Shaw and Rengaswamy(2026)]{ShawRengaswamy2026}
+Swayangprabha Shaw and Narayanan Rengaswamy.
+\newblock Networked realization of quantum {LDPC} codes.
+\newblock \emph{arXiv preprint arXiv:2604.25026}, 2026.
+
+\bibitem[Roffe et~al.(2020)Roffe, White, Burton, and Campbell]{Roffe2020}
+Joschka Roffe, David~R. White, Simon Burton, and Earl~T. Campbell.
+\newblock Decoding across the quantum low-density parity-check code landscape.
+\newblock \emph{Physical Review Research}, 2:\penalty0 043423, 2020.
+\newblock \doi{10.1103/PhysRevResearch.2.043423}.
+
+\bibitem[Roffe(2022)]{ldpcPackage}
+Joschka Roffe.
+\newblock {LDPC}: a {Python} package for low-density parity-check codes.
+\newblock \url{https://roffe.eu/software/ldpc}, 2022.
+
+\bibitem[Higgott and Gidney(2025{\natexlab{a}})]{Higgott2023}
+Oscar Higgott and Craig Gidney.
+\newblock Sparse blossom: correcting a million errors per core second with
+  minimum-weight matching.
+\newblock \emph{Quantum}, 9:\penalty0 1600, 2025{\natexlab{a}}.
+\newblock \doi{10.22331/q-2025-01-20-1600}.
+
+\bibitem[Higgott and Gidney(2025{\natexlab{b}})]{SparseBlossom2025}
+Oscar Higgott and Craig Gidney.
+\newblock {PyMatching} v2: sparse blossom back-end.
+\newblock \url{https://pymatching.readthedocs.io}, 2025{\natexlab{b}}.
+
+\bibitem[Gidney(2021)]{Gidney2021}
+Craig Gidney.
+\newblock Stim: a fast stabilizer circuit simulator.
+\newblock \emph{Quantum}, 5:\penalty0 497, 2021.
+\newblock \doi{10.22331/q-2021-07-06-497}.
+
+\bibitem[Tillich and Z\'{e}mor(2014)]{TillichZemor2014}
+Jean-Pierre Tillich and Gilles Z\'{e}mor.
+\newblock Quantum {LDPC} codes with positive rate and minimum distance
+  proportional to the square root of the blocklength.
+\newblock \emph{IEEE Transactions on Information Theory}, 60\penalty0
+  (2):\penalty0 1193--1202, 2014.
+\newblock \doi{10.1109/TIT.2013.2292061}.
+
+\bibitem[Panteleev and Kalachev(2022)]{PanteleevKalachev2022}
+Pavel Panteleev and Gleb Kalachev.
+\newblock Asymptotically good quantum and locally testable classical {LDPC}
+  codes.
+\newblock In \emph{Proceedings of the 54th Annual ACM SIGACT Symposium on
+  Theory of Computing}, STOC 2022, pages 375--388. Association for Computing
+  Machinery, 2022.
+\newblock \doi{10.1145/3519935.3520017}.
+
+\bibitem[Leverrier and Z\'{e}mor(2022)]{LeverrierZemor2022}
+Anthony Leverrier and Gilles Z\'{e}mor.
+\newblock Quantum {Tanner} codes.
+\newblock \emph{arXiv preprint arXiv:2202.13641}, 2022.
+
+\bibitem[Gottesman(2014)]{Gottesman2014}
+Daniel Gottesman.
+\newblock Fault-tolerant quantum computation with constant overhead.
+\newblock \emph{Quantum Information and Computation}, 14\penalty0
+  (15--16):\penalty0 1338--1372, 2014.
+
+\bibitem[Fawzi et~al.(2018)Fawzi, Grospellier, and
+  Leverrier]{FawziGrospellierLeverrier2018}
+Omar Fawzi, Antoine Grospellier, and Anthony Leverrier.
+\newblock Constant overhead quantum fault-tolerance with quantum expander
+  codes.
+\newblock In \emph{Proceedings of the 2018 IEEE 59th Annual Symposium on
+  Foundations of Computer Science}, FOCS 2018, pages 743--754. IEEE, 2018.
+\newblock \doi{10.1109/FOCS.2018.00076}.
+
+\bibitem[Christandl et~al.(2025)Christandl, Fawzi, and
+  Goswami]{ChristandlFawziGoswami2025}
+Matthias Christandl, Omar Fawzi, and Ashutosh Goswami.
+\newblock Fault-tolerant quantum computation with constant overhead for general
+  noise.
+\newblock \emph{PRX Quantum}, 6:\penalty0 040334, 2025.
+\newblock \doi{10.1103/k4cm-pp9p}.
+
+\bibitem[Bennett and Brassard(1984)]{BennettBrassard1984}
+Charles~H. Bennett and Gilles Brassard.
+\newblock Quantum cryptography: Public key distribution and coin tossing.
+\newblock In \emph{Proceedings of IEEE International Conference on Computers,
+  Systems and Signal Processing}, pages 175--179, Bangalore, India, 1984.
+
+\bibitem[Shor and Preskill(2000)]{ShorPreskill2000}
+Peter~W. Shor and John Preskill.
+\newblock Simple proof of security of the {BB84} quantum key distribution
+  protocol.
+\newblock \emph{Physical Review Letters}, 85:\penalty0 441--444, 2000.
+\newblock \doi{10.1103/PhysRevLett.85.441}.
+
+\bibitem[Portmann and Renner(2022)]{PortmannRenner2022}
+Christopher Portmann and Renato Renner.
+\newblock Security in quantum cryptography.
+\newblock \emph{Reviews of Modern Physics}, 94:\penalty0 025008, 2022.
+\newblock \doi{10.1103/RevModPhys.94.025008}.
+
+\bibitem[Rand et~al.(2018)Rand, Paykin, and Zdancewic]{RandPaykinZdancewic2018}
+Robert Rand, Jennifer Paykin, and Steve Zdancewic.
+\newblock {QWIRE} practice: Formal verification of quantum circuits in {Coq}.
+\newblock In \emph{Proceedings of the 14th International Conference on Quantum
+  Physics and Logic}, volume 266 of \emph{Electronic Proceedings in Theoretical
+  Computer Science}, pages 119--132, 2018.
+\newblock \doi{10.4204/EPTCS.266.8}.
+
+\bibitem[Hietala et~al.(2021)Hietala, Rand, Hung, Wu, and Hicks]{Hietala2021}
+Kesha Hietala, Robert Rand, Shih-Han Hung, Xiaodi Wu, and Michael Hicks.
+\newblock A verified optimizer for quantum circuits.
+\newblock \emph{Proceedings of the ACM on Programming Languages}, 5\penalty0
+  (POPL):\penalty0 1--29, 2021.
+\newblock \doi{10.1145/3434318}.
+
+\bibitem[Bordg et~al.(2021)Bordg, Lachnitt, and He]{Bordg2021}
+Anthony Bordg, Hannah Lachnitt, and Yijun He.
+\newblock Certified quantum computation in {Isabelle/HOL}.
+\newblock \emph{Journal of Automated Reasoning}, 65:\penalty0 691--709, 2021.
+\newblock \doi{10.1007/s10817-020-09584-7}.
+
+\bibitem[Lewis et~al.(2023)Lewis, Benjamin, Browne, Fitzsimons, Markham,
+  Perdrix, and Kashefi]{Lewis2023}
+Arthur Lewis, Simon~C. Benjamin, Dan~E. Browne, Joseph~F. Fitzsimons, Damian
+  Markham, Simon Perdrix, and Elham Kashefi.
+\newblock Formal verification of quantum programs: Theory, tools, and
+  challenges.
+\newblock \emph{ACM Transactions on Quantum Computing}, 5\penalty0
+  (1):\penalty0 1--35, 2023.
+\newblock \doi{10.1145/3624483}.
+
+\bibitem[M{\"u}ller et~al.(2025)]{Muller2025relay}
+Tristan M{\"u}ller et~al.
+\newblock Improved belief propagation is sufficient for real-time decoding of
+  quantum memory.
+\newblock \emph{arXiv preprint arXiv:2506.01779}, 2025.
+
+\bibitem[Johnson et~al.(2026)]{Johnson2026relayfpga}
+Blake Johnson et~al.
+\newblock Real-time decoding of the gross code memory with {FPGAs}.
+\newblock \emph{arXiv preprint arXiv:2510.21600}, 2026.
+
+\bibitem[Sahay and Brown(2026)]{SahayBrown2026}
+Kaavya Sahay and Benjamin~J. Brown.
+\newblock A matching decoder for bivariate bicycle codes.
+\newblock \emph{arXiv preprint arXiv:2602.22770}, 2026.
+\newblock v2, June 2026.
+
+\bibitem[Higgott et~al.(2023)Higgott, Bohdanowicz, Kubica, Flammia, and
+  Campbell]{Higgott2023belief}
+Oscar Higgott, Thomas~C. Bohdanowicz, Aleksander Kubica, Steven~T. Flammia, and
+  Earl~T. Campbell.
+\newblock Improved decoding of circuit noise and fragile boundaries of tailored
+  surface codes.
+\newblock \emph{Physical Review X}, 13:\penalty0 031007, 2023.
+
+\bibitem[Pacenti et~al.(2026)Pacenti, Raveendran, and
+  Vasic]{Pacenti2026trapping}
+Marco Pacenti, Narayanan Raveendran, and Bane Vasic.
+\newblock Trapping sets of detector error models.
+\newblock \emph{arXiv preprint arXiv:2608.11516}, 2026.
+
+\bibitem[{Google Quantum AI and collaborators} et~al.(2025){Google Quantum AI
+  and collaborators}, Acharya, et~al.]{Acharya2024lambda}
+{Google Quantum AI and collaborators}, Rajeev Acharya, et~al.
+\newblock Quantum error correction below the surface code threshold.
+\newblock \emph{Nature}, 638:\penalty0 920--926, 2025.
+
+\bibitem[Wang et~al.(2026)Wang, Lu, Zhang, et~al.]{Wang2026kunlun}
+Ke~Wang, Zhide Lu, Chuanyu Zhang, et~al.
+\newblock Demonstration of low-overhead quantum error correction codes.
+\newblock \emph{Nature Physics}, 22:\penalty0 308, 2026.
+\newblock Dataset: Zenodo, CC-BY-4.0.
+
+\bibitem[Bartlett et~al.(2026)]{Bartlett2026defect}
+Stephen~D. Bartlett et~al.
+\newblock Error correction on an array of superconducting qubits with defective
+  components.
+\newblock \emph{arXiv preprint arXiv:2607.12118}, 2026.
+
+\bibitem[Sion(1958)]{Sion1958}
+Maurice Sion.
+\newblock On general minimax theorems.
+\newblock \emph{Pacific Journal of Mathematics}, 8\penalty0 (1):\penalty0
+  171--176, 1958.
+\newblock \doi{10.2140/pjm.1958.8.171}.
+
+\bibitem[Knill and Laflamme(1997)]{KnillLaflamme1997}
+Emanuel Knill and Raymond Laflamme.
+\newblock Theory of quantum error-correcting codes.
+\newblock \emph{Physical Review A}, 55:\penalty0 900--911, 1997.
+\newblock \doi{10.1103/PhysRevA.55.900}.
+
+\bibitem[Fuchs and van~de Graaf(1999)]{FuchsVandeGraaf1999}
+Christopher~A. Fuchs and Jeroen van~de Graaf.
+\newblock Cryptographic distinguishability measures for quantum-mechanical
+  states.
+\newblock \emph{IEEE Transactions on Information Theory}, 45\penalty0
+  (4):\penalty0 1216--1227, 1999.
+\newblock \doi{10.1109/18.761271}.
+
+\bibitem[Dennis et~al.(2002)Dennis, Kitaev, Landahl, and Preskill]{Dennis2002}
+Eric Dennis, Alexei Kitaev, Andrew Landahl, and John Preskill.
+\newblock Topological quantum memory.
+\newblock \emph{Journal of Mathematical Physics}, 43\penalty0 (9):\penalty0
+  4452--4505, 2002.
+\newblock \doi{10.1063/1.1499754}.
+
+\bibitem[Fowler et~al.(2012)Fowler, Mariantoni, Martinis, and
+  Cleland]{Fowler2012}
+Austin~G. Fowler, Matteo Mariantoni, John~M. Martinis, and Andrew~N. Cleland.
+\newblock Surface codes: Towards practical large-scale quantum computation.
+\newblock \emph{Physical Review A}, 86:\penalty0 032324, 2012.
+\newblock \doi{10.1103/PhysRevA.86.032324}.
+
+\bibitem[Watrous(2018)]{Watrous2018}
+John Watrous.
+\newblock \emph{The Theory of Quantum Information}.
+\newblock Cambridge University Press, Cambridge, 2018.
+\newblock \doi{10.1017/9781316848142}.
+
+\end{thebibliography}

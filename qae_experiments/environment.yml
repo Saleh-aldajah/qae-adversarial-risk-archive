@@ -1,0 +1,23 @@
+# QAE reproducibility archive — conda environment (v25 lock).
+# Reconciled with requirements.txt on 2026-09-25: identical package pins;
+# requirements.txt remains the authoritative lock (pip-only installs work).
+name: qae-reproduce
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - numpy==2.5.2
+    - scipy==1.18.1
+    - stim==1.16.0
+    - ldpc==2.4.1
+    - pymatching==2.2.2
+    - relay-bp==0.2.2
+    - pandas==3.0.5
+    - matplotlib==3.11.1
+# symatch (SyMatch decoder, weight-1 diagnostic only) is vendored under
+# ../comparator/symatch_prep.py + the symatch_repo checkout; see PATCH_NOTES_V24.md.
+# Hardware pipeline (NOT needed for offline reproduction): see ibm_demo/requirements-ibm.txt
+# (qiskit, qiskit-ibm-runtime). Offline reproduction never submits jobs.

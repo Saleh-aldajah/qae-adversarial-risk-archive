@@ -1,0 +1,417 @@
+{
+  "campaign": "consolidation-2026-09-06",
+  "created_utc": "2026-09-06T12:05:45.363526+00:00",
+  "devices": {
+    "A": "ibm_marrakesh",
+    "B": "ibm_fez"
+  },
+  "expectations": [
+    "A: all bound tests hold; all sharp tests sharp",
+    "A: naive stochastic bound falsified at p=0.10 both sectors (replication of the campaign-1 falsification)",
+    "A: composed stochastic bound holds on all six cells",
+    "A: REP7 w3 (=t) within bound; w4 (=t+1) >= 0.90 (third distance point on the weight cliff)",
+    "B: REP5 qualitative pattern reproduces on ibm_fez",
+    "A-vs-2026-08-28: every overlapping deterministic arm reproduces its campaign-1 verdict (bound/sharp)"
+  ],
+  "lambda_N": {
+    "A": {
+      "REP3": 0.087646484375,
+      "REP5": 0.2216796875,
+      "REP7": 0.3466796875
+    },
+    "B": {
+      "REP5": 0.452880859375
+    }
+  },
+  "layout_selection": {
+    "rule": "rank-1 contiguous window of the verified SWAP-free reference path under the snapshot-only metrology score of active_provenance/ap01 (readout + idle + CZ), per length 5/9/13; selection CSVs digest-pinned",
+    "selection_csv_sha256": {
+      "A": "406e0cba751ed0d0db9c064ae47cc0e724f036e0b12f7b4168bac12038c5ec8a",
+      "B": "af362937692d71a02a72db24ffab0e3e44db1a3774639354e328d7fdaab5ae87"
+    }
+  },
+  "layouts": {
+    "A": {
+      "REP3": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "REP5": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "REP7": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "B": {
+      "REP5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "paths_used": {
+    "A": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      19,
+      35,
+      34,
+      33,
+      32
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      19,
+      35,
+      34,
+      33,
+      32
+    ]
+  },
+  "pi": {
+    "A": {
+      "REP3": {
+        "lambda_N": 0.087646484375,
+        "pi1": 0.08391533026841724,
+        "pi2": 0.0036237295766110567,
+        "pi3": 0.00010509131387193005,
+        "pi4": 2.292556033123283e-06
+      },
+      "REP5": {
+        "lambda_N": 0.2216796875,
+        "pi1": 0.19882805137131787,
+        "pi2": 0.021224504165545555,
+        "pi3": 0.0015389547438120488,
+        "pi4": 8.432592912011039e-05
+      },
+      "REP7": {
+        "lambda_N": 0.3466796875,
+        "pi1": 0.2929682368975234,
+        "pi2": 0.04785468621258282,
+        "pi3": 0.005366741635847494,
+        "pi4": 0.0004568391863875032
+      }
+    },
+    "B": {
+      "REP5": {
+        "lambda_N": 0.452880859375,
+        "pi1": 0.3642061220057956,
+        "pi2": 0.07626724415441644,
+        "pi3": 0.011066240930013516,
+        "pi4": 0.0012234788058870238
+      }
+    }
+  },
+  "protocol": {
+    "SHARP_MIN": {
+      "REP3": 0.85,
+      "REP5": 0.9,
+      "REP7": 0.9
+    },
+    "TOL_DET": 0.005,
+    "TOL_STOCH": 0.002,
+    "composed_stoch_rule": "LFR(p) <= d0_hi + Pr[Bin(d,p)+Pois(lambda_N) >= t+1] + TOL_STOCH",
+    "estimator": "lambda_N = sum_{data} ro + rounds*sum_{anc} ro (symmetric readout, pinned snapshot); pi(k) = Pr[Pois(lambda_N) >= k]",
+    "injection_round": 2,
+    "naive_stoch_rule": "LFR(p) <= d0_hi + BinomTail(d,t,p) + TOL_STOCH",
+    "optimization_level": 1,
+    "rounds": 4,
+    "seed_formula": "stable_seed('INJTT', code, basis, arm/p, variant) (identical to campaign 1 -> identical masks)",
+    "tests": [
+      {
+        "arm": "w1",
+        "basis": "Z",
+        "code": "REP3",
+        "device": "A",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w2",
+        "basis": "Z",
+        "code": "REP3",
+        "device": "A",
+        "rule": "LFR_arm >= 0.85",
+        "type": "sharp"
+      },
+      {
+        "arm": "w1",
+        "basis": "X",
+        "code": "REP3",
+        "device": "A",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w2",
+        "basis": "X",
+        "code": "REP3",
+        "device": "A",
+        "rule": "LFR_arm >= 0.85",
+        "type": "sharp"
+      },
+      {
+        "arm": "w2",
+        "basis": "Z",
+        "code": "REP5",
+        "device": "A",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w3",
+        "basis": "Z",
+        "code": "REP5",
+        "device": "A",
+        "rule": "LFR_arm >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "p0.01",
+        "basis": "Z",
+        "binom_tail": 9.850600000000002e-06,
+        "code": "REP5",
+        "device": "A",
+        "rule": "naive + composed (formulas pinned)",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.05",
+        "basis": "Z",
+        "binom_tail": 0.0011581250000000003,
+        "code": "REP5",
+        "device": "A",
+        "rule": "naive + composed (formulas pinned)",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.1",
+        "basis": "Z",
+        "binom_tail": 0.008560000000000002,
+        "code": "REP5",
+        "device": "A",
+        "rule": "naive + composed (formulas pinned)",
+        "type": "stochastic"
+      },
+      {
+        "arm": "w2",
+        "basis": "X",
+        "code": "REP5",
+        "device": "A",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w3",
+        "basis": "X",
+        "code": "REP5",
+        "device": "A",
+        "rule": "LFR_arm >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "p0.01",
+        "basis": "X",
+        "binom_tail": 9.850600000000002e-06,
+        "code": "REP5",
+        "device": "A",
+        "rule": "naive + composed (formulas pinned)",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.05",
+        "basis": "X",
+        "binom_tail": 0.0011581250000000003,
+        "code": "REP5",
+        "device": "A",
+        "rule": "naive + composed (formulas pinned)",
+        "type": "stochastic"
+      },
+      {
+        "arm": "p0.1",
+        "basis": "X",
+        "binom_tail": 0.008560000000000002,
+        "code": "REP5",
+        "device": "A",
+        "rule": "naive + composed (formulas pinned)",
+        "type": "stochastic"
+      },
+      {
+        "arm": "w3",
+        "basis": "Z",
+        "code": "REP7",
+        "device": "A",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w4",
+        "basis": "Z",
+        "code": "REP7",
+        "device": "A",
+        "rule": "LFR_arm >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "w3",
+        "basis": "X",
+        "code": "REP7",
+        "device": "A",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w4",
+        "basis": "X",
+        "code": "REP7",
+        "device": "A",
+        "rule": "LFR_arm >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "w2",
+        "basis": "Z",
+        "code": "REP5",
+        "device": "B",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w3",
+        "basis": "Z",
+        "code": "REP5",
+        "device": "B",
+        "rule": "LFR_arm >= 0.9",
+        "type": "sharp"
+      },
+      {
+        "arm": "w2",
+        "basis": "X",
+        "code": "REP5",
+        "device": "B",
+        "rule": "LFR_arm <= LFR_base + 0.005",
+        "type": "bound"
+      },
+      {
+        "arm": "w3",
+        "basis": "X",
+        "code": "REP5",
+        "device": "B",
+        "rule": "LFR_arm >= 0.9",
+        "type": "sharp"
+      }
+    ],
+    "transpile_seed_formula": "stable_seed('INJTT', code, basis, name, 0) per device"
+  },
+  "purpose": "pre-registered replication of the 2026-08-28 injection-budget test on a new calibration cycle, REP7 distance extension, and second-device check",
+  "reference_campaign": {
+    "backend": "ibm_marrakesh",
+    "date": "2026-08-28",
+    "jobs": [
+      "da8um21qtnsc73d0v3ug",
+      "da8um2ce74ec73aj4n3g",
+      "da8um31qtnsc73d0v400",
+      "da8um3ke74ec73aj4n50"
+    ],
+    "predictions_sha256": "759169c2024d54423fd1a5eb54d46b6501fd5d9f2cd4e1e49b18978c74653cd5"
+  },
+  "reference_path": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    19,
+    35,
+    34,
+    33,
+    32
+  ],
+  "snapshots": {
+    "A": {
+      "backend_version": 2,
+      "calibration_last_update": "2026-09-06 17:06:41+08:00",
+      "file": "ibm_marrakesh_snapshot_20260906T120520Z_consol.json",
+      "sha256": "46b2b602ca2f2603c47b8a68350bf22d476a294b3dcfdde622fa23391f0e2f95",
+      "snapshot_utc": "20260906T120541Z"
+    },
+    "B": {
+      "backend_version": 2,
+      "calibration_last_update": "2026-09-06 19:29:32+08:00",
+      "file": "ibm_fez_snapshot_20260906T120520Z_consol.json",
+      "sha256": "f9b3ef24c4590c8e0a24c0a95331f77e61c1ccc00132b5d3d98b3adf5c9f9455",
+      "snapshot_utc": "20260906T120543Z"
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+ "created_utc": "2026-08-28T08:28:35.421013+00:00",
+ "scope": "WS-A active provenance: defect maps, A/B line selection, IBM A/B run artifacts, equivalence certificate",
+ "files": [
+  {
+   "path": "active_provenance/results/ap_ab_decode_detail.json",
+   "bytes": 5813,
+   "sha256": "e2f9ffad8ec9b808ae7775aa5ec1d237c3df9ec4a7c17888cc93e8a185bfb3a6"
+  },
+  {
+   "path": "active_provenance/results/ap_ab_results.csv",
+   "bytes": 601,
+   "sha256": "3135b42f7ef64096caef17aeb8718f42bb99cc3f0372acb4b8acf667cd4feae1"
+  },
+  {
+   "path": "active_provenance/results/ap_defect_maps.csv",
+   "bytes": 8665,
+   "sha256": "320973348daf47a98e6c215af5dc710b3e30f0c02b220dbf6fa3d59003ef9aab"
+  },
+  {
+   "path": "active_provenance/results/ap_defect_maps.json",
+   "bytes": 11585,
+   "sha256": "c4c3eff0b5f4f31503f6e23323be06082454d8f2a1f5dce7fd8456a4d97909b1"
+  },
+  {
+   "path": "active_provenance/results/ap_line_selection.csv",
+   "bytes": 1492,
+   "sha256": "b2c7c36e33daf9f9c80a9c08503d4308e7e5c921092582877b1ad261bf2aa87d"
+  },
+  {
+   "path": "active_provenance/results/bb72_symatch_equiv_cert.json",
+   "bytes": 1012,
+   "sha256": "8c747d84d265dfa65fa11bd79cf4532be6515ae13a6d1fcb1b81b2a1a3b04853"
+  },
+  {
+   "path": "active_provenance/counts/ab_jobs.json",
+   "bytes": 1862,
+   "sha256": "c29d4540487584e4a4f7755821461802ef08d7f5c7f1916a9ea0092a3e0bf4fd"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep3_x_r4_A_ab.json",
+   "bytes": 4953,
+   "sha256": "7c209bff8479c60c91a19e95dda3823c7a63efbcad1b66fdc9a01c220e35c33c"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep3_x_r4_B_ab.json",
+   "bytes": 4516,
+   "sha256": "2e0fffe91dc53e09030fe2b0fcfd7f1c982620209e31c777d7b97ecb50d88368"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep3_z_r4_A_ab.json",
+   "bytes": 3934,
+   "sha256": "7143cf2aefa7a3996ba1ebe4325d347632fd79b815380469ee1d5ef6ac607bbf"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep3_z_r4_B_ab.json",
+   "bytes": 3518,
+   "sha256": "29fd427bd74a2cbe6a6db08fa7fc9755933cbba739b373d9da5a59a89eccc699"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep5_x_r4_A_ab.json",
+   "bytes": 17670,
+   "sha256": "88bafd43bc2132eb9a203114dc3229d1b13ed81e412894146617c79b4018f894"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep5_x_r4_B_ab.json",
+   "bytes": 17078,
+   "sha256": "3a7b55fa5d24b9e3b1532ca1f54239a51b80591613d882f73e6210d9deae19b6"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep5_z_r4_A_ab.json",
+   "bytes": 14823,
+   "sha256": "594377c99167b1eb771c26df1ffce32a7bd4fd2ca8cc87013ef36f926ecb53d2"
+  },
+  {
+   "path": "active_provenance/counts/counts_rep5_z_r4_B_ab.json",
+   "bytes": 14197,
+   "sha256": "7a8a479efec051f46ac593871a45b8773bfdc6d68545b1230c94aa51885c8771"
+  },
+  {
+   "path": "active_provenance/counts/run_record_ab.json",
+   "bytes": 2304,
+   "sha256": "62944ebc36efc755fa58be9da9abad293dd550f62e25185ad060815d03cfd536"
+  },
+  {
+   "path": "active_provenance/circuits/circuits_metadata_ab.json",
+   "bytes": 5258,
+   "sha256": "1ccaddb1ed80262b4f7f3bd00d13b3953e31822c457ba5651f9d063b74b25bbf"
+  },
+  {
+   "path": "active_provenance/circuits/rep3_x_r4_A.qpy",
+   "bytes": 14178,
+   "sha256": "d32a96a3b52e5aa28900e6edcfdce0a1602c9d062ecd96cc116416abf451eb8c"
+  },
+  {
+   "path": "active_provenance/circuits/rep3_x_r4_B.qpy",
+   "bytes": 14178,
+   "sha256": "0c4690a2df574ff55c6e77df67c788f4a43c1d503d442925f3de3d334547398c"
+  },
+  {
+   "path": "active_provenance/circuits/rep3_z_r4_A.qpy",
+   "bytes": 10194,
+   "sha256": "18a0982703fef94c38deda07e18daaa28ab1a56e6c8cc6b51ff55d45c5e23cb3"
+  },
+  {
+   "path": "active_provenance/circuits/rep3_z_r4_B.qpy",
+   "bytes": 10194,
+   "sha256": "fb2629cb9235ec0c4ce9f737248a4c436e0d4a6317f8f75dfacd0552e2d53206"
+  },
+  {
+   "path": "active_provenance/circuits/rep5_x_r4_A.qpy",
+   "bytes": 21168,
+   "sha256": "1e723408da4419cb3c2903cf2f3d1def08c06f13ac7f4d98598de1b51a7d5390"
+  },
+  {
+   "path": "active_provenance/circuits/rep5_x_r4_B.qpy",
+   "bytes": 21168,
+   "sha256": "d43f0b4e50b8d74f9fc5126d575fece588f677ba52f4bd4b80aab637b83332e4"
+  },
+  {
+   "path": "active_provenance/circuits/rep5_z_r4_A.qpy",
+   "bytes": 14528,
+   "sha256": "8e0b55909442c838d6f3efb6f84cb7f961e0d9c974104a1bb2adba0dcc037b53"
+  },
+  {
+   "path": "active_provenance/circuits/rep5_z_r4_B.qpy",
+   "bytes": 14528,
+   "sha256": "1fffc1243957daa80d09be277a23bde8b5983eeb6fb70a60d82dfd1477661e77"
+  },
+  {
+   "path": "active_provenance/backend_snapshots/ibm_marrakesh_snapshot_20260828T054825Z_ab.json",
+   "bytes": 101244,
+   "sha256": "33d3a930585b933271be74dadf95f187397619b8156d929b631836532fb49748"
+  },
+  {
+   "path": "active_provenance/figures/ap_f1_defect_map.pdf",
+   "bytes": 22413,
+   "sha256": "613dd0178da9a9eaf3519c63f63c2ce911612353b667fd492fbb12e3312660c1"
+  },
+  {
+   "path": "active_provenance/figures/ap_f1_defect_map.png",
+   "bytes": 102848,
+   "sha256": "d6ddbe22098a599d8d116c3868c75fb42e9e6d707183ea6a3a1c3cd3101ccb26"
+  },
+  {
+   "path": "active_provenance/figures/ap_f2_ab_result.pdf",
+   "bytes": 32043,
+   "sha256": "fb7c4689c87330ef160e4727f4352aa639e48e0951b3e6d1c6d08925b9a80600"
+  },
+  {
+   "path": "active_provenance/figures/ap_f2_ab_result.png",
+   "bytes": 190312,
+   "sha256": "34d000659213fea4c1a125b9a23c0a5e34d6687c6fecea201ffcbf41bdc8a6f6"
+  }
+ ]
+}

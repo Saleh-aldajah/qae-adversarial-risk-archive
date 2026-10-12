@@ -1,0 +1,195 @@
+{
+  "analyzed_utc": "2026-08-28T20:16:10.336205+00:00",
+  "backend": "ibm_marrakesh",
+  "predictions_sha256": "759169c2024d54423fd1a5eb54d46b6501fd5d9f2cd4e1e49b18978c74653cd5",
+  "verdicts": [
+    {
+      "arm": "w2",
+      "basis": "Z",
+      "code": "REP5",
+      "ler_arm": 0.0414,
+      "ler_base": 0.0,
+      "margin": -0.0364,
+      "rule": "LFR_w2 <= LFR_base + 0.005",
+      "type": "bound",
+      "verdict": "BOUND VIOLATED"
+    },
+    {
+      "arm": "w3",
+      "basis": "Z",
+      "code": "REP5",
+      "ler_arm": 0.959,
+      "rule": "LFR_w3 >= 0.9",
+      "type": "sharp",
+      "verdict": "SHARP"
+    },
+    {
+      "arm": "p0.01",
+      "basis": "Z",
+      "binom_tail": 9.850600000000002e-06,
+      "bound_value": 0.002393863077766541,
+      "ci": [
+        1.765221952685649e-05,
+        0.0005662834557441313
+      ],
+      "code": "REP5",
+      "d0_hi": 0.00038401247776654115,
+      "failures": 1,
+      "ler": 0.0001,
+      "rule": "LFR(0.01) <= d0_hi + 9.851e-06 + 0.002",
+      "shots": 10000,
+      "type": "stochastic",
+      "verdict": "BOUND HOLDS"
+    },
+    {
+      "arm": "p0.05",
+      "basis": "Z",
+      "binom_tail": 0.0011581250000000003,
+      "bound_value": 0.0035421374777665415,
+      "ci": [
+        0.0002750097221404114,
+        0.0013085419406528096
+      ],
+      "code": "REP5",
+      "d0_hi": 0.00038401247776654115,
+      "failures": 6,
+      "ler": 0.0006,
+      "rule": "LFR(0.05) <= d0_hi + 1.158e-03 + 0.002",
+      "shots": 10000,
+      "type": "stochastic",
+      "verdict": "BOUND HOLDS"
+    },
+    {
+      "arm": "p0.1",
+      "basis": "Z",
+      "binom_tail": 0.008560000000000002,
+      "bound_value": 0.010944012477766543,
+      "ci": [
+        0.018461578716418584,
+        0.024106228434786207
+      ],
+      "code": "REP5",
+      "d0_hi": 0.00038401247776654115,
+      "failures": 211,
+      "ler": 0.0211,
+      "rule": "LFR(0.1) <= d0_hi + 8.560e-03 + 0.002",
+      "shots": 10000,
+      "type": "stochastic",
+      "verdict": "BOUND VIOLATED"
+    },
+    {
+      "arm": "w2",
+      "basis": "X",
+      "code": "REP5",
+      "ler_arm": 0.0506,
+      "ler_base": 0.0002,
+      "margin": -0.045399999999999996,
+      "rule": "LFR_w2 <= LFR_base + 0.005",
+      "type": "bound",
+      "verdict": "BOUND VIOLATED"
+    },
+    {
+      "arm": "w3",
+      "basis": "X",
+      "code": "REP5",
+      "ler_arm": 0.9598,
+      "rule": "LFR_w3 >= 0.9",
+      "type": "sharp",
+      "verdict": "SHARP"
+    },
+    {
+      "arm": "p0.01",
+      "basis": "X",
+      "binom_tail": 9.850600000000002e-06,
+      "bound_value": 0.0027388616935663662,
+      "ci": [
+        5.4847779209068104e-05,
+        0.0007290110935663664
+      ],
+      "code": "REP5",
+      "d0_hi": 0.0007290110935663664,
+      "failures": 2,
+      "ler": 0.0002,
+      "rule": "LFR(0.01) <= d0_hi + 9.851e-06 + 0.002",
+      "shots": 10000,
+      "type": "stochastic",
+      "verdict": "BOUND HOLDS"
+    },
+    {
+      "arm": "p0.05",
+      "basis": "X",
+      "binom_tail": 0.0011581250000000003,
+      "bound_value": 0.0038871360935663667,
+      "ci": [
+        0.00047357165665044376,
+        0.0017097495986561175
+      ],
+      "code": "REP5",
+      "d0_hi": 0.0007290110935663664,
+      "failures": 9,
+      "ler": 0.0009,
+      "rule": "LFR(0.05) <= d0_hi + 1.158e-03 + 0.002",
+      "shots": 10000,
+      "type": "stochastic",
+      "verdict": "BOUND HOLDS"
+    },
+    {
+      "arm": "p0.1",
+      "basis": "X",
+      "binom_tail": 0.008560000000000002,
+      "bound_value": 0.011289011093566368,
+      "ci": [
+        0.03518857872397222,
+        0.042765634385519634
+      ],
+      "code": "REP5",
+      "d0_hi": 0.0007290110935663664,
+      "failures": 388,
+      "ler": 0.0388,
+      "rule": "LFR(0.1) <= d0_hi + 8.560e-03 + 0.002",
+      "shots": 10000,
+      "type": "stochastic",
+      "verdict": "BOUND VIOLATED"
+    },
+    {
+      "arm": "w1",
+      "basis": "Z",
+      "code": "REP3",
+      "ler_arm": 0.0276,
+      "ler_base": 0.0014,
+      "margin": -0.0212,
+      "rule": "LFR_w1 <= LFR_base + 0.005",
+      "type": "bound",
+      "verdict": "BOUND VIOLATED"
+    },
+    {
+      "arm": "w2",
+      "basis": "Z",
+      "code": "REP3",
+      "ler_arm": 0.9292,
+      "rule": "LFR_w2 >= 0.85",
+      "type": "sharp",
+      "verdict": "SHARP"
+    },
+    {
+      "arm": "w1",
+      "basis": "X",
+      "code": "REP3",
+      "ler_arm": 0.0318,
+      "ler_base": 0.0028,
+      "margin": -0.024,
+      "rule": "LFR_w1 <= LFR_base + 0.005",
+      "type": "bound",
+      "verdict": "BOUND VIOLATED"
+    },
+    {
+      "arm": "w2",
+      "basis": "X",
+      "code": "REP3",
+      "ler_arm": 0.924,
+      "rule": "LFR_w2 >= 0.85",
+      "type": "sharp",
+      "verdict": "SHARP"
+    }
+  ]
+}
