@@ -1,0 +1,39 @@
+{
+  "title": "Decoder Evaluation and Adversarial-Risk Certification for Quantum Error-Correcting Memories: Reproduction Archive",
+  "description": "SHA-256-anchored reproduction archive for the manuscript 'Decoder Evaluation and Adversarial-Risk Certification for Quantum Error-Correcting Memories'. Contains all primary CSVs (single-round, repeated-cycle, adaptive ladder, and the finite-size extension repeated_cycle_fss_*.csv), BB72/BB144/BB288 code parameters with the exact-distance certificate checker, the pinned paired decoder grid with failbit-level pairing evidence, the Kunlun released-DEM re-analysis, the corrected circuit-level arm (v24-corrected-extraction with protocol-invariance tests), IBM Quantum hardware campaign records including the pre-registered causal ablation executed 2026-10-11 (theory_test_causal/), the QEC Emulator v2.0.0 package source, manuscript sources (v17-manuscript/, current sn-jnl variant main2_refurbished.tex), a Dockerfile-pinned environment, and an archive-wide SHA-256 manifest (1821 files). Offline reproduction: cd qae_experiments && python reproduce_all.py --quick.",
+  "creators": [
+    {
+      "name": "AlDaajeh, Saleh H.",
+      "orcid": "0000-0001-7810-9290"
+    }
+  ],
+  "keywords": [
+    "quantum error correction",
+    "bivariate bicycle codes",
+    "qLDPC",
+    "BP+OSD",
+    "decoder benchmarking",
+    "adversarial risk",
+    "reproducibility",
+    "finite-size scaling"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "upload_type": "software",
+  "version": "v3.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Saleh-aldajah/qec-emulator",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.20588042",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Supersedes the v15/v16 archive records (concept DOI 10.5281/zenodo.20588042): adds the finite-size scaling extension and the executed causal-ablation campaign."
+}
